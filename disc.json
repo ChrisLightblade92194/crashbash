@@ -1,5 +1,93 @@
 {
     "common": [
 
+    ],
+    "ntsc_u": [
+        {
+            "SCUS_945.70": [
+                {
+                    "name": "exe",
+                    "address": "0x80010000",
+                    "offset": "0x800"
+                }
+            ],
+            "CRASHBSH/CRASHBSH.DAT": [
+                {
+                    "name": "engine",
+                    "address": "0x80078c90",
+                    "offset": "0x04575800"
+                },
+                {
+                    "name": "ball",
+                    "address": "0x800b32b4",
+                    "offset": "0x036b2800"
+                },
+                {
+                    "name": "ovl487",
+                    "address": "0x800b32b4",
+                    "offset": "0x02b81000"
+                },
+                {
+                    "name": "ovl716",
+                    "address": "0x800b32b4",
+                    "offset": "0x03643800"
+                },
+                {
+                    "name": "ovl717",
+                    "address": "0x800b32b4",
+                    "offset": "0x0364e800"
+                },
+                {
+                    "name": "ovl718",
+                    "address": "0x800b32b4",
+                    "offset": "0x03663000"
+                },
+                {
+                    "name": "ovl719",
+                    "address": "0x800b32b4",
+                    "offset": "0x0366a000"
+                },
+                {
+                    "name": "ovl720",
+                    "address": "0x800b32b4",
+                    "offset": "0x03675000"
+                },
+                {
+                    "name": "ovl721",
+                    "address": "0x800b32b4",
+                    "offset": "0x0367e000"
+                },
+                {
+                    "name": "ovl722",
+                    "address": "0x800b32b4",
+                    "offset": "0x03693000"
+                },
+                {
+                    "name": "ovl723",
+                    "address": "0x800b32b4",
+                    "offset": "0x0369b000"
+                },
+                {
+                    "name": "ovl725",
+                    "address": "0x800b32b4",
+                    "offset": "0x036c2000"
+                },
+                {
+                    "name": "ovl726",
+                    "address": "0x800b32b4",
+                    "offset": "0x036d5000"
+                },
+                {
+                    "name": "ovl727",
+                    "address": "0x800b32b4",
+                    "offset": "0x036ed800"
+                },
+                {
+                    "name": "ovl728",
+                    "address": "0x800b32b4",
+                    "offset": "0x036f9000"
+                }
+            ]
+        }
     ]
 }
