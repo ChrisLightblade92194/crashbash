@@ -1,0 +1,3 @@
+// Mod di prova per R3 di M2 (lotto L4): SubtractAngles del decomp con una costante cambiata.
+// Senza hook: `equiv.py replay` chiama direttamente il simbolo C e deve dare 1 qui e 0 con mods/controllo.
+ntsc_u, exe_decomp, 0x80200000, 0x0, src/angoli_mutati.c
