@@ -1,0 +1,4 @@
+// Mod di prova per R2 di M2 (lotto L3): AddPolyG4 del decomp con una sola costante cambiata.
+// Gemello di mods/controllo (stessi hook, stessi indirizzi): `equiv.py run` deve dare 1 qui e 0 con il controllo.
+ntsc_u, exe_decomp, 0x8001a0d8, 0x0, ../../decomp/core/hooks/hookAddPolyG4.s
+ntsc_u, exe_decomp, 0x80200000, 0x0, ../../decomp/core/math.c ../../decomp/core/kernel.s src/gpu_mutato.c

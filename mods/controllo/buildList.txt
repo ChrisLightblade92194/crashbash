@@ -1,0 +1,4 @@
+// Mod di controllo per R2 di M2 (lotto L3): AddPolyG4 del decomp, l'unica funzione agganciata risultata equivalente in L3.
+// Gemello di mods/mutazione (stessi hook, stessi indirizzi, nessuna mutazione): `equiv.py run` deve dare 0.
+ntsc_u, exe_decomp, 0x8001a0d8, 0x0, ../../decomp/core/hooks/hookAddPolyG4.s
+ntsc_u, exe_decomp, 0x80200000, 0x0, ../../decomp/core/math.c ../../decomp/core/kernel.s ../../decomp/core/gpu.c
