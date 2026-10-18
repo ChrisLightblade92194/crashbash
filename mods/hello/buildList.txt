@@ -1,0 +1,4 @@
+// Hello mod (M1-L3): hook sulla jal PutDispEnv di fine frame e codice nel corpo di DrawOTagEnv (mai chiamata).
+// Alias "exe" = sezione SCUS_945.70 di disc.json: le patch finiscono nell'eseguibile sul disco.
+ntsc_u, exe, 0x80027390, 0x0, hooks/hookPutDispEnv.s
+ntsc_u, exe, 0x8002f48c, 0x0, src/hello.c
