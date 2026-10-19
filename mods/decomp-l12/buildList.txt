@@ -1,0 +1,4 @@
+// Mod di test di L12 (M2): C di MemCard_Update (0x8002c97c, EXE), macchina a stati della memory card, con l'hook
+// all'ingresso. Scenari memcard-caricamento, memcard-checksum-errata e memcard-vuota: run atteso 0.
+ntsc_u, exe_decomp, 0x8002c97c, 0x0, ../../decomp/core/hooks/hookMemCard_Update.s
+ntsc_u, exe_decomp, 0x80200000, 0x0, ../../decomp/core/memcard.c
