@@ -1,0 +1,5 @@
+// Mod di test di L13 (M2): C di Ball_UpdateEvents (0x800bc0d8) e SkyBalls_FailEngine (0x800bd43c), modulo di Ballistix
+// (voce 724). Hook nel codice del modulo: solo hot reload con Ballistix in memoria. Scenario b-001-arena-sospesa: run atteso 0.
+ntsc_u, ball_decomp, 0x800bc0d8, 0x0, ../../decomp/ball/hooks/hookBall_UpdateEvents.s
+ntsc_u, ball_decomp, 0x800bd43c, 0x0, ../../decomp/ball/hooks/hookSkyBalls_FailEngine.s
+ntsc_u, ball_decomp, 0x80300000, 0x0, ../../decomp/ball/events.c
