@@ -1,0 +1,5 @@
+// Mod usa e getta di M2-L7: dal menu «Select Game Type», SELECT avvia in Battle Mode il livello SelezioneRapida_livello
+// (indice della tabella dei livelli 0x8004ddd0; 14 = Ballistix). Hook all'ingresso di FrontEnd_CheckLeave (0x8008efd4,
+// motore), che il mod esegue poi in C (decomp/engine/frontend.c). Solo hot reload.
+ntsc_u, engine, 0x8008efd4, 0x0, hooks/hookCheckLeave.s
+ntsc_u, prova, 0x80200000, 0x0, src/selezione_rapida.c ../../decomp/engine/frontend.c

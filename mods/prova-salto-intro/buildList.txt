@@ -1,0 +1,5 @@
+// Mod usa e getta di M2-L7: il gioco arriva al menu senza intro (scritta SCEA, loghi Universal, Eurocom, Crash Bash).
+// Hook: il puntatore all'init dell'intro nei dati del motore (0x8009e58c, voce 991) punta a SaltaIntro_Init.
+// Solo hot reload: va iniettato dopo il caricamento del motore e prima dell'intro (savestate avvio-stati di L7).
+ntsc_u, engine, 0x8009e58c, 0x0, hooks/hookIntroInit.s
+ntsc_u, prova, 0x80200000, 0x0, src/salta_intro.c

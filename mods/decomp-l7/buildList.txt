@@ -1,0 +1,24 @@
+// Mod di test di L7 (M2): C del decomp per avvio, intro e menu (decomp/core/screen.c, decomp/engine/*.c) con gli hook
+// all'ingresso di ogni funzione. Usato dagli scenari avvio-motore, avvio-menu e menu-battaglia: run atteso 0.
+ntsc_u, exe_decomp, 0x800270f0, 0x0, ../../decomp/core/hooks/hookStateMachine_Run.s
+ntsc_u, exe_decomp, 0x80010410, 0x0, ../../decomp/core/hooks/hookEngineState_Init.s
+ntsc_u, exe_decomp, 0x80010394, 0x0, ../../decomp/core/hooks/hookEngineState_Update.s
+ntsc_u, exe_decomp, 0x8001e934, 0x0, ../../decomp/core/hooks/hookScreen_Init.s
+ntsc_u, exe_decomp, 0x8001e588, 0x0, ../../decomp/core/hooks/hookFade_Start.s
+ntsc_u, exe_decomp, 0x8001e598, 0x0, ../../decomp/core/hooks/hookFade_Update.s
+ntsc_u, exe_decomp, 0x8001e610, 0x0, ../../decomp/core/hooks/hookScreen_Update.s
+ntsc_u, exe_decomp, 0x8001e898, 0x0, ../../decomp/core/hooks/hookScreen_Draw.s
+ntsc_u, exe_decomp, 0x8001e854, 0x0, ../../decomp/core/hooks/hookScreen_Exit.s
+ntsc_u, exe_decomp, 0x8001e8f0, 0x0, ../../decomp/core/hooks/hookScreen_CallInit.s
+ntsc_u, engine_decomp, 0x80092af4, 0x0, ../../decomp/engine/hooks/hookScreen_Request.s
+ntsc_u, engine_decomp, 0x80092b7c, 0x0, ../../decomp/engine/hooks/hookEngine_Draw.s
+ntsc_u, engine_decomp, 0x80092ba0, 0x0, ../../decomp/engine/hooks/hookEngine_Update.s
+ntsc_u, engine_decomp, 0x80092bdc, 0x0, ../../decomp/engine/hooks/hookEngine_Init.s
+ntsc_u, engine_decomp, 0x8008e5bc, 0x0, ../../decomp/engine/hooks/hookIntro_Update.s
+ntsc_u, engine_decomp, 0x8008eac8, 0x0, ../../decomp/engine/hooks/hookIntro_Exit.s
+ntsc_u, engine_decomp, 0x8008eb3c, 0x0, ../../decomp/engine/hooks/hookIntro_Draw.s
+ntsc_u, engine_decomp, 0x8008eb8c, 0x0, ../../decomp/engine/hooks/hookIntro_Init.s
+ntsc_u, engine_decomp, 0x8008ece4, 0x0, ../../decomp/engine/hooks/hookGameScreen_NextLevel.s
+ntsc_u, engine_decomp, 0x8008efd4, 0x0, ../../decomp/engine/hooks/hookFrontEnd_CheckLeave.s
+ntsc_u, exe_decomp, 0x80200000, 0x0, ../../decomp/core/screen.c
+ntsc_u, engine_decomp, 0x80400000, 0x0, ../../decomp/engine/frontend.c ../../decomp/engine/intro.c
