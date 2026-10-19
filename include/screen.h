@@ -131,6 +131,8 @@ void _Fade_Start(Fade * fade, s32 step, s32 flags);
 s32  _Fade_Update(Fade * fade);
 void _Screen_Update(ScreenManager * manager, Fade * fade);
 void _Screen_Draw(ScreenManager * manager);
+void _Screen_Exit(ScreenManager * manager);
+void _Screen_CallInit(ScreenManager * manager);
 
 /* Motore (voce 991 del DAT, 0x80078c90) */
 void _FUN_800793e8(void);
