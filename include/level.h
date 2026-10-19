@@ -31,12 +31,12 @@ typedef struct LevelMetrics
     u32 unk20;     /* in 0x8005a614 */
 } LevelMetrics;
 
-/* Gruppi di file del DAT da accodare per ogni livello (0x80058b88), 20 byte */
+/* File del DAT da accodare per ogni livello (0x80058b88), 20 byte; tutti sfx (verifica di M2-L10) */
 typedef struct LevelBanks
 {
-    u32 unk0;      /* letto da FUN_800229fc */
+    void * music;  /* voce del DAT della musica (cartella music del DAT), letta da FUN_800229fc */
     u32 unk4;      /* s16 letto da FUN_800229fc */
-    void * normal;
+    void * normal;  /* banco sfx del livello */
     void * crystal;
     u32 unk16;
 } LevelBanks;
@@ -65,7 +65,6 @@ void _FUN_8007a808(void);
 void _FUN_8007a8c4(void);
 void _FUN_8007abc4(void);
 void _FUN_80093588(void);
-void _FUN_80093854(void);
 void _FUN_800939fc(void);
 void _FUN_80095dbc(void);
 void _Screen_Request(Screen * screen, s32 fadeStep);
@@ -77,7 +76,8 @@ extern u32 _gameFlags;                      /* 0x8005a624 */
 extern s32 _unk_8005a640;                   /* indice (0-3) delle tabelle 0x8009f954, tutte uguali */
 extern s16 _unk_8005a650;                   /* filmato del livello (< 0: nessuno) */
 extern s16 _unk_8005a656;
-extern u8 _unk_8005a664[4];                 /* valore 1-8 per giocatore (forse il personaggio, non verificato) */
+extern u8 _unk_8005a664[4];                 /* personaggio di ogni giocatore, 1-8: 1 Crash, 2 Coco, 3 Cortex, 4 Brio,
+                                               5 Tiny, 6 Kong, 7 Dingodile, 8 Rilla Roo (topic personaggi-e-texture) */
 extern u8 _unk_8005a674;
 extern u8 _unk_8005a675;
 extern u8 _unk_8005a6e0[4];
@@ -94,10 +94,10 @@ extern u32 _unk_8005aa70[11];
 extern s32 _unk_800637a8;
 extern u8 _unk_8005b72c[];
 extern u8 _unk_8005b744[];
-extern u8 _unk_80052a54[];                  /* record da 56 byte, indice _unk_8005a650 */
 extern u8 * _unk_80058ad0;
 extern LevelBanks _levelBanks[];            /* 0x80058b88, indice = livello */
-extern void * _moduleCharBanks[][8];        /* 0x80058f0c, indice = modulo - 0x101, poi valore di _unk_8005a664 - 1 */
+extern void * _moduleCharBanks[][8];        /* 0x80058f0c: suoni dei personaggi (voci sfx del DAT), indice = modulo - 0x101,
+                                               poi valore di _unk_8005a664 - 1 */
 extern u8 _unk_8004e998[];                  /* lista accodata all'ingresso nel front-end */
 extern u8 _unk_8004e9b0[];                  /* lista per i moduli 0x101 e 0x102 (front-end, warp room) */
 extern u8 _unk_8004e9b8[];                  /* lista per i minigiochi con _minigameMode & 0x1e0 */

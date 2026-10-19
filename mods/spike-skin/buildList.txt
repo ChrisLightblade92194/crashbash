@@ -1,0 +1,12 @@
+// Spike di M2-L10: skin di Crash in Crate Crush (voce 989 del DAT, models/chars/crate/crash/data.tex, 4688 byte).
+// Redux: azione 11 del mod-builder (Replace Textures) con le PNG di newtex/ (posizione in VRAM nel nome del file).
+// ISO: le righe noreload riscrivono CLUT e pixel delle immagini 0, 1, 4 e 13 della voce 989 (sezione tex989 di disc.json:
+// indirizzo = 0x80000000 + offset nel file .tex). newtex/ e skin/ si generano in locale e Git le ignora (nota L10, §5).
+ntsc_u noreload, tex989, 0x80000024, 0x0, skin/clut00.bin
+ntsc_u noreload, tex989, 0x800002e0, 0x0, skin/img00.bin
+ntsc_u noreload, tex989, 0x80000048, 0x0, skin/clut01.bin
+ntsc_u noreload, tex989, 0x800004f4, 0x0, skin/img01.bin
+ntsc_u noreload, tex989, 0x800000b4, 0x0, skin/clut04.bin
+ntsc_u noreload, tex989, 0x800006b0, 0x0, skin/img04.bin
+ntsc_u noreload, tex989, 0x800001f8, 0x0, skin/clut13.bin
+ntsc_u noreload, tex989, 0x80000d64, 0x0, skin/img13.bin

@@ -1,6 +1,7 @@
 #include <types.h>
 #include <screen.h>
 #include <level.h>
+#include <model.h>
 
 /* M2-L8: schermata di caricamento del livello (_screenLoader 0x800a00dc) e caricamento del modulo.
    Mappa e ruoli: docs/wiki/topics/caricamento-minigiochi.md */
@@ -77,7 +78,48 @@ void Loader_Init(void)
 static void * Loader_Cutscene(void)
 {
     if (_unk_8005a650 < 0) { return nullptr; }
-    return &_unk_80052a54[_unk_8005a650 * 56];
+    return &_modelTypes[_unk_8005a650];
+}
+
+/*
+    @brief: Accoda il caricamento dei modelli dei personaggi scelti (M2-L10): per ogni giocatore con valore
+            1-8 in _unk_8005a664 prende il record del modello dalle tabelle del modulo e accoda ogni voce
+            della lista _charModelEntries che punta a quel record; copia nel record 28 i file del record
+            _unk_800a00d0[_unk_8005a640]
+    @address: 0x80093854
+*/
+void Loader_QueueCharacterModels(void)
+{
+    s32 player;
+    s32 i;
+    u32 value;
+    void * arena;
+    ModelType * shared;
+    ModelType * type;
+
+    arena = *(void **) &_arenaVariants[_levelVariant * 32 + 4];
+    shared = &_modelTypes[_unk_800a00d0[_unk_8005a640]];
+    _modelTypes[MODEL_TYPE_SHARED].mdlFile = shared->mdlFile;
+    _modelTypes[MODEL_TYPE_SHARED].texFile = shared->texFile;
+
+    for (player = 0; player < 4; player++)
+    {
+        value = _unk_8005a664[player];
+        if (value - 1 >= CHAR_VALUE_MAX) { continue; }
+
+        type = &_modelTypes[_charModelTables.primary[value]];
+        for (i = 0; i < CHAR_MODEL_ENTRIES; i++)
+        {
+            if (_charModelEntries[i].type == type) { _FUN_800129d0(&_charModelEntries[i], arena); }
+        }
+
+        if (_charModelTables.secondary == nullptr) { continue; }
+        type = &_modelTypes[_charModelTables.secondary[value]];
+        for (i = 0; i < CHAR_MODEL_ENTRIES; i++)
+        {
+            if (_charModelEntries[i].type == type) { _FUN_800129d0(&_charModelEntries[i], arena); }
+        }
+    }
 }
 
 /*
@@ -136,7 +178,7 @@ void Loader_Update(void)
             _FUN_8002c284(LEVEL_ID == LEVEL_FRONTEND);
             __attribute__((fallthrough)); /* prosegue nello stato 8 */
         case 8:
-            _FUN_80093854();
+            Loader_QueueCharacterModels();
             _loaderState = 6;
             break;
 

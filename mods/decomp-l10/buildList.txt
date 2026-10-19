@@ -1,0 +1,12 @@
+// Mod di test di L10 (M2): come decomp-l8 (caricamento dei livelli) con in aggiunta il C di Loader_QueueCharacterModels
+// (0x80093854, decomp/engine/loader.c), che accoda i modelli dei personaggi scelti. Scenario personaggi-crate-crush: run atteso 0.
+ntsc_u, exe_decomp, 0x800235bc, 0x0, ../../decomp/core/hooks/hookLevel_SetMetrics.s
+ntsc_u, exe_decomp, 0x80022140, 0x0, ../../decomp/core/hooks/hookLevel_QueueBanks.s
+ntsc_u, engine_decomp, 0x8009317c, 0x0, ../../decomp/engine/hooks/hookLevel_LoadModule.s
+ntsc_u, engine_decomp, 0x800936c4, 0x0, ../../decomp/engine/hooks/hookLoader_Init.s
+ntsc_u, engine_decomp, 0x80093be8, 0x0, ../../decomp/engine/hooks/hookLoader_Update.s
+ntsc_u, engine_decomp, 0x8009407c, 0x0, ../../decomp/engine/hooks/hookLoader_Draw.s
+ntsc_u, engine_decomp, 0x80093854, 0x0, ../../decomp/engine/hooks/hookLoader_QueueCharacterModels.s
+ntsc_u, engine_decomp, 0x80094058, 0x0, ../../decomp/engine/hooks/hookLoader_Exit.s
+ntsc_u, exe_decomp, 0x80200000, 0x0, ../../decomp/core/level.c
+ntsc_u, engine_decomp, 0x80400000, 0x0, ../../decomp/engine/loader.c

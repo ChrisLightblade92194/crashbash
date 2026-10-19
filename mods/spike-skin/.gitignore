@@ -1,0 +1,4 @@
+# Dati derivati dal gioco: si generano in locale (nota L10, §5), mai nel repository
+newtex/
+skin/
+skin-*/
