@@ -2,3 +2,5 @@
 // Sedi del codice: tabella «Budget dello spazio» di docs/milestones/M3.md (repository principale).
 // M3-L5: scheletro con il solo marcatore, nella sede di B-001 (DrawSyncCallback, 96 byte, mai chiamata).
 ntsc_u, exe, 0x8002ec70, 0x0, base/marcatore.c
+// M3-L6 B-001: andi a0, v0, 3 e due nop a 0x800bc518. Sezione ball (voce 724): ovl724 non è in disc.json.
+ntsc_u, ball, 0x800bc518, 0x0, b001/sequenza.s
