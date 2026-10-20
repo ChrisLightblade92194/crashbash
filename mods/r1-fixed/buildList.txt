@@ -1,0 +1,4 @@
+// Mod della Release 1 (M3, D2 della specifica): una sottocartella per voce, una sola buildList.
+// Sedi del codice: tabella «Budget dello spazio» di docs/milestones/M3.md (repository principale).
+// M3-L5: scheletro con il solo marcatore, nella sede di B-001 (DrawSyncCallback, 96 byte, mai chiamata).
+ntsc_u, exe, 0x8002ec70, 0x0, base/marcatore.c

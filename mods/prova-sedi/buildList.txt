@@ -1,0 +1,11 @@
+// Prova dinamica delle sedi (M3-L5, aggiunta da L3): i nove blocchi della tabella «Budget dello spazio»
+// di docs/milestones/M3.md riempiti di break (0x0000000d). Se il gioco ne esegue uno, la suite di base non dà 0.
+ntsc_u, exe, 0x80031484, 0x0, break_r9.s
+ntsc_u, exe, 0x8003456c, 0x0, break_skin.s
+ntsc_u, exe, 0x8002f48c, 0x0, break_r7.s
+ntsc_u, exe, 0x80037838, 0x0, break_r8.s
+ntsc_u, exe, 0x8003d98c, 0x0, break_r10.s
+ntsc_u, exe, 0x8002ec70, 0x0, break_b001.s
+ntsc_u, exe, 0x80039a7c, 0x0, break_b006.s
+ntsc_u, exe, 0x80036e7c, 0x0, break_b002.s
+ntsc_u, exe, 0x8003797c, 0x0, break_b003.s

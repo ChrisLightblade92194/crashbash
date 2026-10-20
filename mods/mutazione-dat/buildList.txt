@@ -1,0 +1,4 @@
+// Mutazione di controllo della regressione (M3-L5, R3): un byte della voce 722 del DAT (front-end).
+// A 0x800b5248 l'init dell'intro chiama 0x8001e984 con a0 = 0x20; qui a0 = 0x10. Il modulo 722 si carica
+// dal disco dopo avvio-stati.sstate: la suite di base deve uscire con 1 (scenario avvio-menu).
+ntsc_u, ovl722, 0x800b5248, 0x0, mutazione.s
