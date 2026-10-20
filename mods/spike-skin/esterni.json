@@ -1,0 +1,38 @@
+[
+  {
+    "percorso": "build/bash.bin",
+    "sha256": "a1d6b967a2311f1444482f4af91dff2d75e083ed538419f25d57d77dd5a4d7fd"
+  },
+  {
+    "percorso": "mods/spike-skin/skin/clut00.bin",
+    "sha256": "ce75923c917a1eba16858504a4d041b2e05cfa5acf769136ba455af530eb7a0e"
+  },
+  {
+    "percorso": "mods/spike-skin/skin/clut01.bin",
+    "sha256": "a126cfa774db57fab8dd5a9d54d9e08f6f56767f89b0e8285d5b3367f4a8e705"
+  },
+  {
+    "percorso": "mods/spike-skin/skin/clut04.bin",
+    "sha256": "e3e89425f93df8fd4060896857f1da7b539c6588d42f8cbf2b9df4f91b151ddd"
+  },
+  {
+    "percorso": "mods/spike-skin/skin/clut13.bin",
+    "sha256": "4677eac98c3c60e304f7978cfe44b078fc0e5781245b045beb894f0a93eab27b"
+  },
+  {
+    "percorso": "mods/spike-skin/skin/img00.bin",
+    "sha256": "e512621da8a6abe50e703ea7dac1fa999a8a9965a2a234fcbe300d3578f87b71"
+  },
+  {
+    "percorso": "mods/spike-skin/skin/img01.bin",
+    "sha256": "5b98946968bb8dfdf5dbb0cff5684e57171fb1c00708c3f93575d2e1e4fb0764"
+  },
+  {
+    "percorso": "mods/spike-skin/skin/img04.bin",
+    "sha256": "9a76b356576d92d64dad0816bfda0b0558515882fd8686e6bfaaf651691204a4"
+  },
+  {
+    "percorso": "mods/spike-skin/skin/img13.bin",
+    "sha256": "952e4f8b3142e735b9c9c16491e6ca566546b2f8475e34fabb32f8afcacd287d"
+  }
+]
