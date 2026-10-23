@@ -3,8 +3,9 @@
 # Hook: ingresso di FrontEnd_CheckLeave (0x8008efd4, voce 991), chiamata a ogni frame della schermata di gioco.
 #   - nel front-end (_levelID 0x28), se il modo chiede l'uscita (bit 0x8000) con 0x8008 e tipo Battle, copia il
 #     blocco di configurazione 0x8005a644-0x8005a684 e il prossimo livello (0x8009e5dc) in ripeti_dati;
-#   - nel front-end, se il modo non chiede l'uscita, su SELECT GAME TYPE e senza cambio di schermata in corso,
-#     SELECT riscrive il blocco (che porta il modo a 0x8008) se la configurazione è valida.
+#   - nel front-end, se il modo non chiede l'uscita, su SELECT GAME TYPE e senza cambio di schermata in corso
+#     (_engineScreens.next e _frontEndScreens.next nulli), SELECT riscrive il blocco (che porta il modo a 0x8008)
+#     e il prossimo livello se la configurazione è valida.
 .set noreorder
 .set noat
 
@@ -21,6 +22,7 @@ ripeti_hook:
     lui   $t3, 0x8005
     lw    $t3, 0x1380($t3)             # tasti appena premuti, giocatore 1
     lui   $t4, 0x800a
+    lw    $t6, -0x758($t4)             # _frontEndScreens.next (0x8009f8a8)
     lw    $t4, -0x75c($t4)             # _frontEndScreens.current (0x8009f8a4)
     lui   $t5, 0x800b
     ori   $t5, $t5, 0x8e28             # SELECT GAME TYPE
@@ -31,6 +33,7 @@ ripeti_hook:
     lui   $t3, 0x800a
     lw    $t3, -0x9a4($t3)             # _engineScreens.next (0x8009f65c)
     nop
+    or    $t3, $t3, $t6                # nessun cambio di schermata in corso, né del motore né del menu
     bne   $t3, $zero, ripeti_fine
     addu  $t9, $ra, $zero
     jal   ripeti_ripristina
@@ -94,7 +97,7 @@ ripeti_nulla:
     jr    $ra
     nop
 
-.balign 16
+.balign 4
 .global ripeti_dati
 ripeti_dati:
     .space 72                          # valida, 16 parole di 0x8005a644, prossimo livello
