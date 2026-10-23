@@ -11,3 +11,6 @@ ntsc_u, engine, 0x8009e590, 0x0, salto-intro/hookIntroUpdate.s
 ntsc_u, exe, 0x80037838, 0x0, salto-pagine/saltaPagine.s
 ntsc_u, engine, 0x800832bc, 0x0, salto-pagine/entrata.s
 ntsc_u, engine, 0x8007fc74, 0x0, salto-pagine/maschera.s
+// M3-L9: SELECT ripete l'ultima partita Battle. Codice e dati nell'EXE (LoadImage2 + StoreImage2), hook all'ingresso di FrontEnd_CheckLeave nel motore (voce 991).
+ntsc_u, exe, 0x80031484, 0x0, ripeti/ripeti.s
+ntsc_u, engine, 0x8008efd4, 0x0, ripeti/hookCheckLeave.s
