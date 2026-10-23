@@ -7,3 +7,7 @@ ntsc_u, ball, 0x800bc518, 0x0, b001/sequenza.s
 // M3-L7: START tenuto salta intro e loghi. Codice nell'EXE, puntatore Intro_Update nella voce 991.
 ntsc_u, exe, 0x8002f48c, 0x0, salto-intro/salta.s
 ntsc_u, engine, 0x8009e590, 0x0, salto-intro/hookIntroUpdate.s
+// M3-L8: START salta le pagine istruzioni. Codice nell'EXE (SsUtKeyOff), ingresso di NextPage e maschera della croce nel motore (voce 991).
+ntsc_u, exe, 0x80037838, 0x0, salto-pagine/saltaPagine.s
+ntsc_u, engine, 0x800832bc, 0x0, salto-pagine/entrata.s
+ntsc_u, engine, 0x8007fc74, 0x0, salto-pagine/maschera.s
