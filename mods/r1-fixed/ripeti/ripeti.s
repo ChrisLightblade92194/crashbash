@@ -1,4 +1,4 @@
-# M3-L9 (R9) SELECT su SELECT GAME TYPE ripete l'ultima partita Battle; M3-L10 (R10) SELECT sulla cerimonia di fine partita vale la croce.
+# M3-L9 (R9) SELECT su SELECT GAME TYPE ripete l'ultima partita Battle.
 # Sede: EXE, blocco LoadImage2 + StoreImage2 (0x80031484-0x8003165c, mai chiamate).
 # Hook: ingresso di FrontEnd_CheckLeave (0x8008efd4, voce 991), chiamata a ogni frame della schermata di gioco.
 #   - nel front-end (_levelID 0x28), se il modo chiede l'uscita (bit 0x8000) con 0x8008 e tipo Battle, copia il
@@ -68,35 +68,6 @@ ripeti_copia:
     sw    $t7, 0($t6)
     j     ripeti_fine
     sw    $t8, 0($t4)                  # configurazione valida
-
-.global ripeti_conferma
-ripeti_conferma:
-    # M3-L10 (R10): ingresso della funzione del motore che legge la conferma del menu di fine partita (0x8007f1a8,
-    # voce 991, ritorna i tasti premuti & 0x4008: croce o START). In una partita Battle, sulla cerimonia di fine
-    # partita (_gameMode 0x801 e flag 0x200 di 0x8005a624) SELECT del giocatore 1 vale come la croce: si aggiunge il bit
-    # della croce alla parola dei tasti appena premuti (0x80051380) prima che la funzione la legga.
-    lui   $t0, 0x8006
-    addiu $t0, $t0, -0x59bc            # 0x8005a644 = _gameMode
-    lhu   $t2, 0($t0)
-    lhu   $t3, 2($t0)                  # _minigameMode
-    lw    $t4, -0x20($t0)              # flag di 0x8005a624
-    xori  $t1, $t2, 0x801
-    bne   $t1, $zero, ripeti_conferma_fine
-    andi  $t4, $t4, 0x200
-    beq   $t4, $zero, ripeti_conferma_fine
-    andi  $t3, $t3, 0xff
-    addiu $t3, $t3, -1                 # solo Battle (1)
-    bne   $t3, $zero, ripeti_conferma_fine
-    lui   $t3, 0x8005
-    lw    $t4, 0x1380($t3)             # tasti appena premuti, giocatore 1
-    nop
-    andi  $t5, $t4, 1                  # SELECT
-    beq   $t5, $zero, ripeti_conferma_fine
-    ori   $t4, $t4, 0x4000             # croce
-    sw    $t4, 0x1380($t3)
-ripeti_conferma_fine:
-    j     0x8007f1b0                   # resto della funzione
-    sw    $s1, 28($sp)                 # seconda istruzione sostituita
 
 # Riscrive la configurazione memorizzata; v0 = 1 se l'ha fatto, 0 se non c'è. Foglia: usa t0, t4-t7.
 .global ripeti_ripristina
