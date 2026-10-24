@@ -14,3 +14,5 @@ ntsc_u, engine, 0x8007fc74, 0x0, salto-pagine/maschera.s
 // M3-L9: SELECT ripete l'ultima partita Battle. Codice e dati nell'EXE (LoadImage2 + StoreImage2), hook all'ingresso di FrontEnd_CheckLeave nel motore (voce 991).
 ntsc_u, exe, 0x80031484, 0x0, ripeti/ripeti.s
 ntsc_u, engine, 0x8008efd4, 0x0, ripeti/hookCheckLeave.s
+// M3-L10: SELECT sulla cerimonia di fine partita Battle vale la croce. Codice nel blocco di L9, hook all'ingresso della funzione di conferma del menu di fine partita nel motore (voce 991).
+ntsc_u, engine, 0x8007f1a8, 0x0, ripeti/hookConferma.s
