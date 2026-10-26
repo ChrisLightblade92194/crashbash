@@ -1,8 +1,8 @@
 # M3-L10 (R10), OPZIONALE e fuori dalla R1 (decisione del proprietario, 2026-10-24): SELECT sulla cerimonia di fine
 # partita Battle vale la croce. Non è nella buildList attiva: per inserirlo togliere i due «//» delle righe
 # «opzione R10» di buildList.txt (vedi opzioni/rivincita-select/LEGGIMI.md).
-# Sede: EXE, subito dopo i dati di L9 (ripeti_dati termina a 0x800315f8), 84 byte fino a 0x8003164c nel blocco
-# LoadImage2 + StoreImage2 (0x80031484-0x8003165c).
+# Sede: EXE, blocco MatrixNormal (0x8003d98c-0x8003da74, mai chiamata, prova dinamica di M3-L5), 84 byte.
+# Fino a M3-L15 stava dopo i dati di L9 (0x800315f8), che con le skin finiscono a 0x80031614.
 .set noreorder
 .set noat
 

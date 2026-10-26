@@ -15,5 +15,11 @@ ntsc_u, engine, 0x8007fc74, 0x0, salto-pagine/maschera.s
 ntsc_u, exe, 0x80031484, 0x0, ripeti/ripeti.s
 ntsc_u, engine, 0x8008efd4, 0x0, ripeti/hookCheckLeave.s
 // opzione R10 (non nella R1, decisione del proprietario del 2026-10-24): SELECT sulla cerimonia di fine partita vale la croce. Togliere i «//» per inserirla; vedi opzioni/rivincita-select/LEGGIMI.md.
-// ntsc_u, exe, 0x800315f8, 0x0, opzioni/rivincita-select/rivincita.s
+// ntsc_u, exe, 0x8003d98c, 0x0, opzioni/rivincita-select/rivincita.s
 // ntsc_u, engine, 0x8007f1a8, 0x0, opzioni/rivincita-select/hookConferma.s
+// M3-L15: skin dei personaggi. Codice e flag nell'EXE (CdReadBreak); conferma e maschera nella Character Select (modulo 722); accodamento in Loader_QueueCharacterModels (voce 991); i .tex delle skin nel file SKIN.BIN in fondo al disco (fileList.txt, scritto da tools/build.py).
+ntsc_u, exe, 0x8003456c, 0x0, skin/skin.s
+ntsc_u, ovl722, 0x800b615c, 0x0, skin/skinMaschera.s
+ntsc_u, ovl722, 0x800b62f0, 0x0, skin/skinConferma.s
+ntsc_u, engine, 0x80093950, 0x0, skin/skinAccoda1.s
+ntsc_u, engine, 0x800939ac, 0x0, skin/skinAccoda2.s

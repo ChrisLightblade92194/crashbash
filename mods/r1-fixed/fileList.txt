@@ -1,0 +1,2 @@
+// M3-L15: file delle skin in fondo al disco, dopo BASHY. (nessun file del gioco si sposta). Lo scrive tools/build.py da skin/pacchetto.json.
+ntsc_u, skin/SKIN.BIN
