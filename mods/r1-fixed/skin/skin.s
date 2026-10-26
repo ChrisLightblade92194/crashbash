@@ -1,8 +1,8 @@
 # M3-L15 (R12) skin dei personaggi: scelta alla Character Select e caricamento dal disco.
 # Sede: EXE, blocco CdReadBreak (0x8003456c-0x800346f8, mai chiamata).
-# Dati sul disco: il file SKIN.BIN in fondo al disco, dopo BASHY. (LBA 75624), letto con le routine del DAT
+# Dati sul disco: i primi settori di BASHY. (LBA 60120, riempitivo a zero mai letto dal gioco), letti con le routine del DAT
 # al settore SKIN_SETTORE contato dall'inizio del DAT (LBA 236): i .tex delle skin in ordine di voce del
-# .tex originale, ognuno con i settori del suo originale. tools/build.py verifica LBA e contenuto.
+# .tex originale, ognuno con i settori del suo originale. tools/build.py li scrive e verifica LBA e contenuto.
 # - skin_conferma: chiamata al posto dello store del personaggio nella conferma della Character Select
 #   (modulo 722, 0x800b62f0); scrive anche skin_scelta[giocatore] = 1 se un giocatore umano ha confermato
 #   con SKIN_TASTO, altrimenti 0 (CPU comprese).
@@ -17,7 +17,7 @@
 .set noat
 
 .equ SKIN_TASTO, 0x8000               # quadrato (provvisorio: decisione del proprietario in M3.md)
-.equ SKIN_SETTORE, 75388              # LBA di SKIN.BIN (75624) - LBA del DAT (236); = «settore» di pacchetto.json
+.equ SKIN_SETTORE, 59884              # LBA di BASHY. (60120) - LBA del DAT (236); = «settore» di pacchetto.json
 
 .global skin_leggi
 skin_leggi:
@@ -109,7 +109,7 @@ skin_carica:
     lui   $t1, 0x800a
     addiu $t1, $t1, -1516             # _charModelEntries (0x8009fa14)
     addiu $t2, $t1, 1536              # 96 voci da 16 byte
-    li    $t3, SKIN_SETTORE           # lui + ori: il settore supera i 16 bit
+    li    $t3, SKIN_SETTORE
 skin_somma:                           # settore = fine del DAT + settori dei .tex con voce minore
     lw    $t4, 12($t1)
     addiu $t1, $t1, 16
