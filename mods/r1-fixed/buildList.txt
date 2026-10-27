@@ -24,3 +24,13 @@ ntsc_u, exe, 0x8003fc58, 0x0, skin/skinCarica.s
 ntsc_u, ovl722, 0x800b62f0, 0x0, skin/skinConferma.s
 ntsc_u, engine, 0x80093950, 0x0, skin/skinAccoda1.s
 ntsc_u, engine, 0x800939ac, 0x0, skin/skinAccoda2.s
+// M3-V2 (Task 4): anteprima delle varianti alla Character Select e podio acceso prima della conferma, nei blocchi della riserva provati in V1 (S5); agganci nel modulo 722 al cursore (0x800b6114) e all'ingresso nella schermata (0x800b6454).
+ntsc_u, exe, 0x8004b9c8, 0x0, skin/skinScrivi.s
+ntsc_u, exe, 0x800317a0, 0x0, skin/skinAnteprima.s
+ntsc_u, exe, 0x8004ab78, 0x0, skin/skinCursore.s
+ntsc_u, exe, 0x8002ebbc, 0x0, skin/skinPodio.s
+ntsc_u, exe, 0x8003891c, 0x0, skin/skinTasti.s
+ntsc_u, exe, 0x80038a40, 0x0, skin/skinArrivo.s
+ntsc_u, exe, 0x8002f0d4, 0x0, skin/skinTabelle.s
+ntsc_u, ovl722, 0x800b6114, 0x0, skin/skinHookCursore.s
+ntsc_u, ovl722, 0x800b6454, 0x0, skin/skinHookIngresso.s
