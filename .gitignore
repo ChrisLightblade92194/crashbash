@@ -48,3 +48,4 @@ games/settings.json
 *.tex
 # Tabella delle varianti generata da tools/build.py (M3-V2)
 mods/*/skin/varianti.inc
+mods/prova-posti/
