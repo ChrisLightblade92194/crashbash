@@ -1,0 +1,29 @@
+// Mod della Release 1 (M3, D2 della specifica): una sottocartella per voce, una sola buildList.
+// Sedi del codice: tabella «Budget dello spazio» di docs/milestones/M3.md (repository principale).
+// M3-L5: scheletro con il solo marcatore, nella sede di B-001 (DrawSyncCallback, 96 byte, mai chiamata).
+ntsc_u, exe, 0x8002ec70, 0x0, base/marcatore.c
+// M3-L6 B-001: andi a0, v0, 3 e due nop a 0x800bc518. Sezione ball (voce 724): ovl724 non è in disc.json.
+ntsc_u, ball, 0x800bc518, 0x0, b001/sequenza.s
+// M3-L7: START tenuto salta intro e loghi. Codice nell'EXE, puntatore Intro_Update nella voce 991.
+ntsc_u, exe, 0x8002f48c, 0x0, salto-intro/salta.s
+ntsc_u, engine, 0x8009e590, 0x0, salto-intro/hookIntroUpdate.s
+// M3-L8: START salta le pagine istruzioni. Codice nell'EXE (SsUtKeyOff), ingresso di NextPage e maschera della croce nel motore (voce 991).
+ntsc_u, exe, 0x80037838, 0x0, salto-pagine/saltaPagine.s
+ntsc_u, engine, 0x800832bc, 0x0, salto-pagine/entrata.s
+ntsc_u, engine, 0x8007fc74, 0x0, salto-pagine/maschera.s
+// M3-L9: SELECT ripete l'ultima partita Battle. Codice e dati nell'EXE (LoadImage2 + StoreImage2), hook all'ingresso di FrontEnd_CheckLeave nel motore (voce 991).
+ntsc_u, exe, 0x80031484, 0x0, ripeti/ripeti.s
+ntsc_u, engine, 0x8008efd4, 0x0, ripeti/hookCheckLeave.s
+// opzione R10 (non nella R1, decisione del proprietario del 2026-10-24): SELECT sulla cerimonia di fine partita vale la croce. Togliere i «//» per inserirla; vedi opzioni/rivincita-select/LEGGIMI.md.
+// ntsc_u, exe, 0x8003d98c, 0x0, opzioni/rivincita-select/rivincita.s
+// ntsc_u, engine, 0x8007f1a8, 0x0, opzioni/rivincita-select/hookConferma.s
+// M3-L15: skin dei personaggi. Codice e flag nell'EXE (CdReadBreak); conferma e maschera nella Character Select (modulo 722); accodamento in Loader_QueueCharacterModels (voce 991); i .tex delle skin nei primi settori di BASHY. (scritti da tools/build.py).
+ntsc_u, exe, 0x8003456c, 0x0, skin/skin.s
+ntsc_u, ovl722, 0x800b615c, 0x0, skin/skinMaschera.s
+ntsc_u, ovl722, 0x800b62f0, 0x0, skin/skinConferma.s
+ntsc_u, engine, 0x80093950, 0x0, skin/skinAccoda1.s
+ntsc_u, engine, 0x800939ac, 0x0, skin/skinAccoda2.s
+// M3-V1, prototipo usa-e-getta dell'anteprima (S1-S3): codice e dati nella zona del motore a zero alla Character Select, hook sul cursore del modulo 722.
+ntsc_u, engine, 0x800a8000, 0x0, anteprima.s
+ntsc_u, engine, 0x800a8800, 0x0, anteprimaDati.s
+ntsc_u, ovl722, 0x800b6114, 0x0, hookCursore.s
