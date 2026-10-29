@@ -1,0 +1,35 @@
+{
+  "personaggio": "4",
+  "posto": 2,
+  "nome": "lilla",
+  "gruppi": [
+    {
+      "nome": "pelle",
+      "tinta": [
+        20,
+        50
+      ],
+      "saturazione": [
+        0.4,
+        1
+      ],
+      "valore": [
+        0.4,
+        1
+      ],
+      "colore": "#d4b4f0"
+    },
+    {
+      "nome": "camice",
+      "tinta": [
+        100,
+        150
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "colore": "#5a3a70"
+    }
+  ]
+}

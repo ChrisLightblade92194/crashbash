@@ -1,0 +1,39 @@
+{
+  "personaggio": "5",
+  "posto": 2,
+  "nome": "tigre-bianca",
+  "gruppi": [
+    {
+      "nome": "pelo",
+      "tinta": [
+        8,
+        30
+      ],
+      "saturazione": [
+        0.7,
+        1
+      ],
+      "valore": [
+        0.4,
+        1
+      ],
+      "colore": "#ececec"
+    },
+    {
+      "nome": "muso",
+      "tinta": [
+        32,
+        55
+      ],
+      "saturazione": [
+        0.4,
+        1
+      ],
+      "valore": [
+        0.3,
+        1
+      ],
+      "colore": "#c8c8d0"
+    }
+  ]
+}

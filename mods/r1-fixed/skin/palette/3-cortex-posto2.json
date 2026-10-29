@@ -1,0 +1,39 @@
+{
+  "personaggio": "3",
+  "posto": 2,
+  "nome": "rossa",
+  "gruppi": [
+    {
+      "nome": "pelle",
+      "tinta": [
+        30,
+        62
+      ],
+      "saturazione": [
+        0.4,
+        1
+      ],
+      "valore": [
+        0.25,
+        1
+      ],
+      "colore": "#d83a2a"
+    },
+    {
+      "nome": "N",
+      "tinta": [
+        350,
+        10
+      ],
+      "saturazione": [
+        0.8,
+        1
+      ],
+      "valore": [
+        0.5,
+        1
+      ],
+      "colore": "#ffcc00"
+    }
+  ]
+}

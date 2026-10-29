@@ -1,0 +1,23 @@
+{
+  "personaggio": "1",
+  "posto": 2,
+  "nome": "verde",
+  "gruppi": [
+    {
+      "nome": "pelo",
+      "tinta": [
+        5,
+        40
+      ],
+      "saturazione": [
+        0.6,
+        1
+      ],
+      "valore": [
+        0.4,
+        1
+      ],
+      "colore": "#4fae2e"
+    }
+  ]
+}

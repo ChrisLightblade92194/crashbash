@@ -1,0 +1,71 @@
+{
+  "personaggio": "8",
+  "posto": 2,
+  "nome": "funky",
+  "gruppi": [
+    {
+      "nome": "pelo",
+      "tinta": [
+        5,
+        40
+      ],
+      "saturazione": [
+        0.15,
+        0.5
+      ],
+      "valore": [
+        0.7,
+        1
+      ],
+      "colore": "#5a3a9a"
+    },
+    {
+      "nome": "rosso",
+      "tinta": [
+        335,
+        360
+      ],
+      "saturazione": [
+        0.7,
+        1
+      ],
+      "valore": [
+        0.5,
+        1
+      ],
+      "colore": "#ff2aa8"
+    },
+    {
+      "nome": "pelo-scuro",
+      "tinta": [
+        350,
+        15
+      ],
+      "saturazione": [
+        0.3,
+        0.7
+      ],
+      "valore": [
+        0.3,
+        0.65
+      ],
+      "colore": "#3a2a6a"
+    },
+    {
+      "nome": "oro",
+      "tinta": [
+        40,
+        60
+      ],
+      "saturazione": [
+        0.8,
+        1
+      ],
+      "valore": [
+        0.6,
+        1
+      ],
+      "colore": "#40e0d0"
+    }
+  ]
+}

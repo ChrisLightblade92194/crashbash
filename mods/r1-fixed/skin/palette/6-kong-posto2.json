@@ -1,0 +1,55 @@
+{
+  "personaggio": "6",
+  "posto": 2,
+  "nome": "montagna",
+  "gruppi": [
+    {
+      "nome": "pelo",
+      "tinta": [
+        200,
+        300
+      ],
+      "saturazione": [
+        0.05,
+        0.45
+      ],
+      "valore": [
+        0.15,
+        0.75
+      ],
+      "colore": "#d8d8e0"
+    },
+    {
+      "nome": "canotta",
+      "tinta": [
+        345,
+        10
+      ],
+      "saturazione": [
+        0.7,
+        1
+      ],
+      "valore": [
+        0.3,
+        1
+      ],
+      "colore": "#4a4a8a"
+    },
+    {
+      "nome": "rosa",
+      "tinta": [
+        320,
+        345
+      ],
+      "saturazione": [
+        0.2,
+        0.6
+      ],
+      "valore": [
+        0.7,
+        1
+      ],
+      "colore": "#a8c8e8"
+    }
+  ]
+}

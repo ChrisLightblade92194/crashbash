@@ -1,0 +1,55 @@
+{
+  "personaggio": "8",
+  "posto": 1,
+  "nome": "yeti",
+  "gruppi": [
+    {
+      "nome": "pelo",
+      "tinta": [
+        5,
+        40
+      ],
+      "saturazione": [
+        0.15,
+        0.5
+      ],
+      "valore": [
+        0.7,
+        1
+      ],
+      "colore": "#e4f0fa"
+    },
+    {
+      "nome": "rosso",
+      "tinta": [
+        335,
+        360
+      ],
+      "saturazione": [
+        0.7,
+        1
+      ],
+      "valore": [
+        0.5,
+        1
+      ],
+      "colore": "#6aa0d4"
+    },
+    {
+      "nome": "pelo-scuro",
+      "tinta": [
+        350,
+        15
+      ],
+      "saturazione": [
+        0.3,
+        0.7
+      ],
+      "valore": [
+        0.3,
+        0.65
+      ],
+      "colore": "#9cb4cc"
+    }
+  ]
+}

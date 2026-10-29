@@ -1,0 +1,51 @@
+{
+  "personaggio": "7",
+  "posto": 2,
+  "nome": "gorilla",
+  "gruppi": [
+    {
+      "nome": "pelo",
+      "tinta": [
+        10,
+        30
+      ],
+      "saturazione": [
+        0.7,
+        1
+      ],
+      "valore": [
+        0.2,
+        0.75
+      ],
+      "colore": "#1e2440"
+    },
+    {
+      "nome": "squame",
+      "tinta": [
+        80,
+        140
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "colore": "#8090b0"
+    },
+    {
+      "nome": "pelle",
+      "tinta": [
+        0,
+        20
+      ],
+      "saturazione": [
+        0.25,
+        0.6
+      ],
+      "valore": [
+        0.6,
+        1
+      ],
+      "colore": "#c8c8e8"
+    }
+  ]
+}
