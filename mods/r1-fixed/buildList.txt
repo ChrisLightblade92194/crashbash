@@ -34,3 +34,16 @@ ntsc_u, exe, 0x80038a40, 0x0, skin/skinArrivo.s
 ntsc_u, exe, 0x8002f0d4, 0x0, skin/skinTabelle.s
 ntsc_u, ovl722, 0x800b6114, 0x0, skin/skinHookCursore.s
 ntsc_u, ovl722, 0x800b6454, 0x0, skin/skinHookIngresso.s
+// M3-V3 (lotto A): celle swatch proprie dei personaggi sul podio. Patch delle voci 130 (.tex) e 131 (.mdl) del podio, un binario per intervallo cambiato, generati in output/ da tools/build.py (scrivi_celle) dal DAT originale; le righe devono restare esattamente queste.
+ntsc_u noreload, tex130, 0x80001f0c, 0x0, output/celle130_1f0c.bin
+ntsc_u noreload, mdl131, 0x800101a0, 0x0, output/celle131_101a0.bin
+ntsc_u noreload, mdl131, 0x80010ff8, 0x0, output/celle131_10ff8.bin
+ntsc_u noreload, mdl131, 0x800111c0, 0x0, output/celle131_111c0.bin
+ntsc_u noreload, mdl131, 0x800120b0, 0x0, output/celle131_120b0.bin
+ntsc_u noreload, mdl131, 0x800122b6, 0x0, output/celle131_122b6.bin
+ntsc_u noreload, mdl131, 0x80013eea, 0x0, output/celle131_13eea.bin
+ntsc_u noreload, mdl131, 0x80014072, 0x0, output/celle131_14072.bin
+ntsc_u noreload, mdl131, 0x80014d72, 0x0, output/celle131_14d72.bin
+ntsc_u noreload, mdl131, 0x80015e8a, 0x0, output/celle131_15e8a.bin
+ntsc_u noreload, mdl131, 0x80016054, 0x0, output/celle131_16054.bin
+ntsc_u noreload, mdl131, 0x80016e0c, 0x0, output/celle131_16e0c.bin

@@ -91,6 +91,16 @@
                     "name": "tex989",
                     "address": "0x80000000",
                     "offset": "0x0453c000"
+                },
+                {
+                    "name": "tex130",
+                    "address": "0x80000000",
+                    "offset": "0x00c52800"
+                },
+                {
+                    "name": "mdl131",
+                    "address": "0x80000000",
+                    "offset": "0x00c71800"
                 }
             ]
         }
