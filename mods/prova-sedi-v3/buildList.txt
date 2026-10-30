@@ -1,0 +1,10 @@
+// Prova dinamica delle sedi della riserva per M3-V3 (Task 0.5): blocchi pieni di break (0x0000000d).
+// Se il gioco ne esegue uno, la suite di base non dà 0. Blocchi da docs/notes/m3-spazio.md §5, esclusi quelli assegnati, delle varianti, della memory card e FUN_800102f8/FUN_80012bc8.
+ntsc_u, exe, 0x8003f004, 0x0, break_cdvol.s
+ntsc_u, exe, 0x8004a31c, 0x0, break_pitch2note.s
+ntsc_u, exe, 0x8003d7cc, 0x0, break_invsquareroot.s
+ntsc_u, exe, 0x8003840c, 0x0, break_sssndsetvol.s
+ntsc_u, exe, 0x80038504, 0x0, break_sssepsetvol.s
+ntsc_u, exe, 0x800392b0, 0x0, break_sseppause.s
+ntsc_u, exe, 0x80043aac, 0x0, break_ssvabopenhead.s
+ntsc_u, exe, 0x8002fa90, 0x0, break_getdispenv.s
