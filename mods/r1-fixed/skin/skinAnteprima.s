@@ -5,6 +5,8 @@
 # buffer di 3 settori 0x800a4800 con skin_leggi e al massimo 3 tentativi (skin_tentativi = 4); se la lettura
 # riesce, DrawSync(0), skin_scrivi e variante_mostrata[personaggio − 1] = variante; con un errore VRAM e
 # variante restano. In ogni caso rimette a zero il buffer (zona del motore a zero, «Esiti di V1»).
+# M3-V3 (Task A5): dopo DrawSync(0) salta a skin_anteprima_coda (skin/skinCoda.s), che nel frame di
+# questa funzione esegue skin_scrivi, skin_celle e variante_mostrata, poi torna a skin_anteprima_svuota.
 .set noreorder
 .set noat
 
@@ -55,11 +57,14 @@ skin_anteprima_leggi:
     sb    $zero, %lo(skin_tentativi)($t1)
     jal   0x8002ed68                  # DrawSync(0): la GPU non disegna con le texture da cambiare
     move  $a0, $zero
-    jal   skin_scrivi
+    j     skin_anteprima_coda         # M3-V3: skin_scrivi, skin_celle e variante_mostrata (skin/skinCoda.s)
     move  $a0, $s0
+    # M3-V3: le tre istruzioni seguenti non si eseguono più (le fa skin_anteprima_coda); restano per
+    # non spostare il resto del blocco.
     lui   $t0, %hi(variante_mostrata - 1)
     addu  $t0, $t0, $s0
     sb    $s1, %lo(variante_mostrata - 1)($t0)
+.global skin_anteprima_svuota             # ritorno di skin_anteprima_coda
 skin_anteprima_svuota:
     lui   $t0, %hi(BUFFER)
     addiu $t0, $t0, %lo(BUFFER)

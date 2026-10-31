@@ -47,3 +47,8 @@ ntsc_u noreload, mdl131, 0x80014d72, 0x0, output/celle131_14d72.bin
 ntsc_u noreload, mdl131, 0x80015e8a, 0x0, output/celle131_15e8a.bin
 ntsc_u noreload, mdl131, 0x80016054, 0x0, output/celle131_16054.bin
 ntsc_u noreload, mdl131, 0x80016e0c, 0x0, output/celle131_16e0c.bin
+// M3-V3 (Task A5): celle swatch del personaggio a ogni variante, nei blocchi della riserva provati (L5, V3-0): skin_anteprima continua in skin_anteprima_coda, che chiama skin_scrivi e skin_celle; tabelle in skin/celle.inc (generato da tools/build.py).
+ntsc_u, exe, 0x8002ec84, 0x0, skin/skinCoda.s
+ntsc_u, exe, 0x8003787c, 0x0, skin/skinCelle.s
+ntsc_u, exe, 0x8002fa90, 0x0, skin/skinCella.s
+ntsc_u, exe, 0x8002f4c4, 0x0, skin/skinCelleDati.s
