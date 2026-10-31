@@ -216,6 +216,15 @@
           "959": "edcb7f598ffe0454b3d4c8825d48af88c62923c84db19ed7e874b427962cf08a",
           "977": "e3434f13055a4129c578085dba562738c2793789cb449aba6bf151cd537d908d"
         }
+      },
+      "vertici": {
+        "2": "skin/palette/2-coco-posto1.json",
+        "3": "skin/palette/3-cortex-posto1.json",
+        "4": "skin/palette/4-brio-posto1.json",
+        "5": "skin/palette/5-tiny-posto1.json",
+        "6": "skin/palette/6-kong-posto1.json",
+        "7": "skin/palette/7-dingodile-posto1.json",
+        "8": "skin/palette/8-rilla-roo-posto1.json"
       }
     },
     {
@@ -334,6 +343,16 @@
           "959": "733d66874cabadb0d66c8bc0f1d0d93dc7686d864ac54d5abeab18a2a1435990",
           "977": "58022d87620f0ad102412e37f641ab3a7372a6f07b52c3928644fd1477c95af6"
         }
+      },
+      "vertici": {
+        "1": "skin/palette/1-crash-posto2.json",
+        "2": "skin/palette/2-coco-posto2.json",
+        "3": "skin/palette/3-cortex-posto2.json",
+        "4": "skin/palette/4-brio-posto2.json",
+        "5": "skin/palette/5-tiny-posto2.json",
+        "6": "skin/palette/6-kong-posto2.json",
+        "7": "skin/palette/7-dingodile-posto2.json",
+        "8": "skin/palette/8-rilla-roo-posto2.json"
       }
     },
     {
