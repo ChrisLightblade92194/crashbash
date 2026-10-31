@@ -58,3 +58,7 @@ ntsc_u, exe, 0x80043aac, 0x0, skin/skinTexel.s
 ntsc_u, exe, 0x8003f004, 0x0, skin/skinVertici.s
 ntsc_u, exe, 0x8004a31c, 0x0, skin/skinVerticiSettore.s
 ntsc_u, exe, 0x8003d7cc, 0x0, skin/skinVerticiDati.s
+// M3-V3 (Task B4): colori dei vertici sul podio, nei blocchi della riserva di V3 (Task 0.5): skin_anteprima_coda legge il record del podio e continua in skin_vertici_coda, che dopo skin_scrivi e skin_celle chiama skin_vertici_podio (skin_vertici_copia e nuova preparazione delle liste della cache della mesh).
+ntsc_u, exe, 0x8003840c, 0x0, skin/skinVerticiCoda.s
+ntsc_u, exe, 0x80038504, 0x0, skin/skinVerticiPodio.s
+ntsc_u, exe, 0x800392b0, 0x0, skin/skinVerticiCopia.s

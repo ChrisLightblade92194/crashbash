@@ -7,6 +7,7 @@
 # variante restano. In ogni caso rimette a zero il buffer (zona del motore a zero, «Esiti di V1»).
 # M3-V3 (Task A5): dopo DrawSync(0) salta a skin_anteprima_coda (skin/skinCoda.s), che nel frame di
 # questa funzione esegue skin_scrivi, skin_celle e variante_mostrata, poi torna a skin_anteprima_svuota.
+# M3-V3 (Task B4): la coda legge prima il record dei vertici del podio e scrive solo se la lettura riesce.
 .set noreorder
 .set noat
 
