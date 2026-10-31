@@ -52,3 +52,5 @@ ntsc_u, exe, 0x8002ec84, 0x0, skin/skinCoda.s
 ntsc_u, exe, 0x8003787c, 0x0, skin/skinCelle.s
 ntsc_u, exe, 0x8002fa90, 0x0, skin/skinCella.s
 ntsc_u, exe, 0x8002f4c4, 0x0, skin/skinCelleDati.s
+// M3-V3 (Task A5, review del lotto A): colore di una cella dal texel della faccia del crate nel .tex della variante.
+ntsc_u, exe, 0x80043aac, 0x0, skin/skinTexel.s
