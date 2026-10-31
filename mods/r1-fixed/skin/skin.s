@@ -117,6 +117,7 @@ skin_accoda_fine:
     nop
 
 .include "skin/varianti.inc"         # dopo il codice: skin_leggi resta a inizio blocco
+.global SKIN_BLOCCO                   # usato da skin_vertici_carica (skin/skinVertici.s, M3-V3)
 .global SKIN_BLOCCO                   # usato da skin_anteprima (skin/skinAnteprima.s)
 .align 2
 

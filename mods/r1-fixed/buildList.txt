@@ -54,3 +54,7 @@ ntsc_u, exe, 0x8002fa90, 0x0, skin/skinCella.s
 ntsc_u, exe, 0x8002f4c4, 0x0, skin/skinCelleDati.s
 // M3-V3 (Task A5, review del lotto A): colore di una cella dal texel della faccia del crate nel .tex della variante.
 ntsc_u, exe, 0x80043aac, 0x0, skin/skinTexel.s
+// M3-V3 (Task B3): colori dei vertici in partita, nei blocchi della riserva di V3 (Task 0.5): skin_carica salva lo scostamento del blocco del posto e continua in skin_vertici_carica, che legge sopra la tabella dei colori del .mdl i settori dell'area dei vertici; tabelle in skin/vertici.inc (generato da tools/build.py).
+ntsc_u, exe, 0x8003f004, 0x0, skin/skinVertici.s
+ntsc_u, exe, 0x8004a31c, 0x0, skin/skinVerticiSettore.s
+ntsc_u, exe, 0x8003d7cc, 0x0, skin/skinVerticiDati.s

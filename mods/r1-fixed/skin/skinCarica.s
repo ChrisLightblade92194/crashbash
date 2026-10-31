@@ -4,7 +4,8 @@
 #   cinque ingressi skin_carica_<v> di skin/skin.s: il buffer contiene .tex e .mdl originali; legge sopra
 #   il .tex i settori della skin dal blocco del posto (stessa dimensione dell'originale), poi passa al
 #   callback originale FUN_80012840. Nel blocco i .tex sono in ordine di voce, ognuno con i settori del
-#   suo originale.
+#   suo originale. M3-V3: salva t7 in skin_vertici_blocco e continua in skin_vertici_carica
+#   (skin/skinVertici.s), che passa poi al callback originale.
 .set noreorder
 .set noat
 
@@ -39,6 +40,8 @@ skin_dopo:
     sw    $t3, 16($sp)                # voce finta: settore della skin
     sw    $t6, 20($sp)                #             dimensione
     addiu $a0, $sp, 16
+    lui   $t4, %hi(skin_vertici_blocco)
+    sw    $t7, %lo(skin_vertici_blocco)($t4)  # per skin_vertici_carica (M3-V3)
     jal   skin_leggi
     move  $a1, $s0
     move  $a0, $s0
@@ -46,5 +49,9 @@ skin_dopo:
     lw    $ra, 36($sp)
     lw    $s1, 28($sp)
     lw    $s0, 32($sp)
-    j     0x80012840                  # callback originale
+    j     skin_vertici_carica         # M3-V3: colori dei vertici, poi il callback originale
     addiu $sp, $sp, 40
+
+.global skin_vertici_blocco
+skin_vertici_blocco:                  # scostamento del blocco del posto in settori (t7)
+    .word 0
