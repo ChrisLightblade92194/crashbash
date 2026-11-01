@@ -62,3 +62,9 @@ ntsc_u, exe, 0x8003d7cc, 0x0, skin/skinVerticiDati.s
 ntsc_u, exe, 0x8003840c, 0x0, skin/skinVerticiCoda.s
 ntsc_u, exe, 0x80038504, 0x0, skin/skinVerticiPodio.s
 ntsc_u, exe, 0x800392b0, 0x0, skin/skinVerticiCopia.s
+// M3-L23: il cerchio su CHOOSE LEVEL sblocca per la sessione tutte le arene di Battle. Codice e flag nell'EXE (MemCardOpen, prova di L5; era la sede di B-006, passata alla R2); agganci nel modulo 722 alla chiamata dei tasti (0x800b74dc) e a tre controlli del bit 0x2000 di 0x8005a618.
+ntsc_u, exe, 0x80039a7c, 0x0, sblocco/sblocco.s
+ntsc_u, ovl722, 0x800b74dc, 0x0, sblocco/hookTasti.s
+ntsc_u, ovl722, 0x800b7028, 0x0, sblocco/controlloCroce.s
+ntsc_u, ovl722, 0x800b70f8, 0x0, sblocco/controlloScritta.s
+ntsc_u, ovl722, 0x800b7638, 0x0, sblocco/controlloIcone.s
