@@ -1,0 +1,4 @@
+// Prova dinamica delle sedi nuove di M3-L24: blocchi della libreria libmcrd pieni di break (0x0000000d).
+// Se il gioco ne esegue uno, la suite di base non dà 0. MemCardClose + MemCardReadData (0x80039c04-0x80039ce4) e MemCardWriteData (0x80039eb0-0x80039f4c), docs/notes/m3-spazio.md §5; la coda di MemCardOpen è già provata in L5.
+ntsc_u, exe, 0x80039c04, 0x0, break_memcardclose.s
+ntsc_u, exe, 0x80039eb0, 0x0, break_memcardwrite.s

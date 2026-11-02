@@ -68,3 +68,8 @@ ntsc_u, ovl722, 0x800b74dc, 0x0, sblocco/hookTasti.s
 ntsc_u, ovl722, 0x800b7028, 0x0, sblocco/controlloCroce.s
 ntsc_u, ovl722, 0x800b70f8, 0x0, sblocco/controlloScritta.s
 ntsc_u, ovl722, 0x800b7638, 0x0, sblocco/controlloIcone.s
+// M3-L24: SELECT tenuto più la croce su SELECT NUMBER OF PLAYERS (Battle) avvia una partita casuale. Codice nell'EXE, tre blocchi della libreria libmcrd mai chiamati (coda di MemCardOpen dopo L23, MemCardClose + MemCardReadData, MemCardWriteData); aggancio nel modulo 722 alla chiamata della schermata seguente (0x800b425c).
+ntsc_u, exe, 0x80039b48, 0x0, casuale/casuale.s
+ntsc_u, exe, 0x80039c04, 0x0, casuale/genera.s
+ntsc_u, exe, 0x80039eb0, 0x0, casuale/scrivi.s
+ntsc_u, ovl722, 0x800b425c, 0x0, casuale/hookCroce.s
