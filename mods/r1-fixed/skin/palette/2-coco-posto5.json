@@ -17,7 +17,7 @@
         0.2,
         1
       ],
-      "colore": "#f0c020"
+      "colore": "#181818"
     },
     {
       "nome": "salopette",
@@ -33,7 +33,8 @@
         0.2,
         1
       ],
-      "colore": "#202020"
+      "colore": "#f0c020",
+      "anche_texture": true
     },
     {
       "nome": "scarpe",
@@ -49,7 +50,41 @@
         0.3,
         1
       ],
-      "colore": "#f0c020"
+      "colore": "#181818"
+    },
+    {
+      "nome": "capelli-radici",
+      "tinta": [
+        22,
+        38
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "valore": [
+        0.3,
+        1
+      ],
+      "colore": "#f8d020",
+      "anche_texture": true
+    },
+    {
+      "nome": "capelli-punte",
+      "tinta": [
+        38,
+        62
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "valore": [
+        0.3,
+        1
+      ],
+      "colore": "#202020",
+      "anche_texture": true
     }
   ]
 }
