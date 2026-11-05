@@ -1,0 +1,87 @@
+{
+  "personaggio": "5",
+  "posto": 3,
+  "nome": "arlecchino",
+  "gruppi": [
+    {
+      "nome": "pelo",
+      "tinta": [
+        8,
+        30
+      ],
+      "saturazione": [
+        0.7,
+        1
+      ],
+      "valore": [
+        0.4,
+        1
+      ],
+      "colore": "#6a2c9a"
+    },
+    {
+      "nome": "muso",
+      "tinta": [
+        32,
+        55
+      ],
+      "saturazione": [
+        0.4,
+        1
+      ],
+      "valore": [
+        0.3,
+        1
+      ],
+      "colore": "#f0d890"
+    },
+    {
+      "nome": "scuri",
+      "tinta": [
+        340,
+        8
+      ],
+      "saturazione": [
+        0.6,
+        1
+      ],
+      "valore": [
+        0,
+        0.45
+      ],
+      "colore": "#181818"
+    },
+    {
+      "nome": "scarpe",
+      "tinta": [
+        345,
+        8
+      ],
+      "saturazione": [
+        0.6,
+        1
+      ],
+      "valore": [
+        0.6,
+        1
+      ],
+      "colore": "#f0c020"
+    },
+    {
+      "nome": "perizoma",
+      "tinta": [
+        70,
+        160
+      ],
+      "saturazione": [
+        0.3,
+        1
+      ],
+      "valore": [
+        0.1,
+        1
+      ],
+      "colore": "#20a040"
+    }
+  ]
+}

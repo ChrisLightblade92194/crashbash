@@ -357,7 +357,7 @@
     },
     {
       "posto": 3,
-      "cartella": "skin/r1/prova-posto3",
+      "cartella": "skin/r1/l18-posto3",
       "personaggi": {
         "1": {
           "813": "b2809f9c99d6cf0f079bf4666ffdf584923fffe121bbb95ea35a6111db97e4d3",
@@ -416,18 +416,18 @@
           "983": "3cdfde364846e395ad9e53e589d7b4382c0d3cb08d00a40a443bb781b1bfb4da"
         },
         "5": {
-          "809": "0399ad00339ade5db4053843dce76efa9ea35605a7d44baad28e4b29d27f2c25",
-          "825": "0b2976ff661da521f5b5ac55900351150570b25126d428d1490d1c05f669e22d",
-          "841": "46496185920ef29bf00d7db8086d68499c33bec836da044f4074974f44eda852",
-          "849": "0910d8cd724a382afbb21fd0fb3edabfd2baf7041a88aa02b8d8d6654c8d72ae",
-          "871": "44763ca6ef67a08f262d3a0468a92f9520db7ae997bac68b4214a950b8377914",
-          "887": "ad6205c9905cdb95fff432ec46f094a0570fe62fe75c475315be261be42f8426",
-          "897": "1ea1aec19265fac2d17e99a27f045777c019baaa2c795cd83bf9e499d41473c2",
-          "919": "f864463653da5934c3912cadbfb6d4b834806f6b74f8cca2d950d4fa165bb452",
-          "935": "399ab3a42ce9ab429000012fd10a115dc50717e8fbd954b29755bc68aba4b96a",
-          "951": "344abc39bfc8e6620c06a7e51a8e09350227dfbc76c3d53a90e341599f5340ef",
-          "965": "0be072f5239d0fbee755014bcb3cae76c1474f571b2f63c46eccd252fa8739a0",
-          "981": "a87cc8d475a87b96cbec6fc5b6846c8c7a6444a4e7e5490294b6c28b4204088d"
+          "897": "f2d6a776042acc15ef7edb551fb45f8cea2b4ab75b324abe0343842fd982e0f1",
+          "981": "778cf444e29a753566d4fe81fc0a0b6688b6fed7a7819620fe3361b8d4e64c8a",
+          "935": "ea0521ef09ad4c8b4d27eebde502fac19191429a9af8c4b757ea0990e91cc338",
+          "841": "860f80cfe3682b0457c09d7e08110f1d2f896e6feda75b5b93fcf04d167b3537",
+          "871": "f3435d33244f2102c3fb19cbe16edcb93b5198d5f5ea19ed2e36d67b205a9d9a",
+          "849": "d79f425b4bbd435a94d6521a8642d0be193ca3d5f2a0e772df40d1a6d56a44c1",
+          "965": "bb58771de5b567f5b2f60488520472d9b32815a5d1e96ca9aaaabff63c7087b0",
+          "919": "ec16aa87a0ffe1f4db7d044476d7cf518ec6366c610c34a7c397349f5e58573d",
+          "951": "8ea3036449ab04634b7e1f60816e76cd2479635c06a5cf1c95693eb5a56dfc73",
+          "825": "854d2161e756ed6ae6bf48d3ad0efa528b5bd0d31656a6c6b2eca3c8beef99d8",
+          "809": "5bba643399b8bf6b63fd8ff7f9ba95ea1e7ed17f8a885bdd0e4fb18a0864804a",
+          "887": "306a5964e10589b3767b04f37d21b768610a4f19752e5c97e44a24e184d5dd64"
         },
         "6": {
           "805": "9680ba53456db9df81b4b79ea8ac22b41f97676938dc9c086019c14674ba8cf0",
@@ -471,6 +471,9 @@
           "959": "cb0fc32bbde12ac5a7d56b4b02b3e972d1be6fcc092da5571c3a62e5cb836581",
           "977": "88197feb068a89ebbc4d2c6bcc22662450d7d26f5df9dadd35275d24846e0752"
         }
+      },
+      "vertici": {
+        "5": "skin/palette/5-tiny-posto3.json"
       }
     }
   ]
