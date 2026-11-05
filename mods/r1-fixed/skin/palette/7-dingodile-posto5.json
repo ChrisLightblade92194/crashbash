@@ -1,0 +1,67 @@
+{
+  "personaggio": "7",
+  "posto": 5,
+  "nome": "drago-fucsia",
+  "gruppi": [
+    {
+      "nome": "pancia",
+      "tinta": [
+        20,
+        40
+      ],
+      "saturazione": [
+        0.3,
+        0.7
+      ],
+      "valore": [
+        0.75,
+        1
+      ],
+      "colore": "#ffb0dc"
+    },
+    {
+      "nome": "pelo",
+      "tinta": [
+        10,
+        30
+      ],
+      "saturazione": [
+        0.6,
+        1
+      ],
+      "valore": [
+        0.2,
+        1
+      ],
+      "colore": "#c8187e"
+    },
+    {
+      "nome": "squame",
+      "tinta": [
+        80,
+        140
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "colore": "#8a2ab0"
+    },
+    {
+      "nome": "coda",
+      "tinta": [
+        40,
+        70
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "valore": [
+        0.4,
+        1
+      ],
+      "colore": "#ff70c0"
+    }
+  ]
+}

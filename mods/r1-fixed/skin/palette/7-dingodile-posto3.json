@@ -1,0 +1,51 @@
+{
+  "personaggio": "7",
+  "posto": 3,
+  "nome": "pittore",
+  "gruppi": [
+    {
+      "nome": "pancia",
+      "tinta": [
+        20,
+        40
+      ],
+      "saturazione": [
+        0.3,
+        0.7
+      ],
+      "valore": [
+        0.75,
+        1
+      ],
+      "colore": "#f4f0e8"
+    },
+    {
+      "nome": "pelo",
+      "tinta": [
+        10,
+        30
+      ],
+      "saturazione": [
+        0.6,
+        1
+      ],
+      "valore": [
+        0.2,
+        1
+      ],
+      "colore": "#e8e4dc"
+    },
+    {
+      "nome": "squame",
+      "tinta": [
+        80,
+        140
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "colore": "#4a8a40"
+    }
+  ]
+}
