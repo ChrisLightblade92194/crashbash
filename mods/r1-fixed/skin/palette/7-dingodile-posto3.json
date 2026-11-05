@@ -1,7 +1,7 @@
 {
   "personaggio": "7",
   "posto": 3,
-  "nome": "pittore",
+  "nome": "drago",
   "gruppi": [
     {
       "nome": "pancia",
@@ -17,7 +17,7 @@
         0.75,
         1
       ],
-      "colore": "#f4f0e8"
+      "colore": "#f0b030"
     },
     {
       "nome": "pelo",
@@ -33,7 +33,7 @@
         0.2,
         1
       ],
-      "colore": "#e8e4dc"
+      "colore": "#8a1010"
     },
     {
       "nome": "squame",
@@ -45,7 +45,23 @@
         0.5,
         1
       ],
-      "colore": "#4a8a40"
+      "colore": "#e04010"
+    },
+    {
+      "nome": "coda",
+      "tinta": [
+        40,
+        70
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "valore": [
+        0.4,
+        1
+      ],
+      "colore": "#ffd020"
     }
   ]
 }

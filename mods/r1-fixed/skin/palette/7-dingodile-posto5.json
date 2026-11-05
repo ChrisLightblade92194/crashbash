@@ -1,7 +1,7 @@
 {
   "personaggio": "7",
   "posto": 5,
-  "nome": "drago-fucsia",
+  "nome": "hazmat",
   "gruppi": [
     {
       "nome": "pancia",
@@ -17,7 +17,7 @@
         0.75,
         1
       ],
-      "colore": "#ffb0dc"
+      "colore": "#303030"
     },
     {
       "nome": "pelo",
@@ -33,7 +33,7 @@
         0.2,
         1
       ],
-      "colore": "#c8187e"
+      "colore": "#e8c820"
     },
     {
       "nome": "squame",
@@ -45,7 +45,7 @@
         0.5,
         1
       ],
-      "colore": "#8a2ab0"
+      "colore": "#202020"
     },
     {
       "nome": "coda",
@@ -61,7 +61,7 @@
         0.4,
         1
       ],
-      "colore": "#ff70c0"
+      "colore": "#e8c820"
     }
   ]
 }
