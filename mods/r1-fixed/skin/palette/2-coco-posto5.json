@@ -1,0 +1,55 @@
+{
+  "personaggio": "2",
+  "posto": 5,
+  "nome": "ape",
+  "gruppi": [
+    {
+      "nome": "fiore",
+      "tinta": [
+        200,
+        300
+      ],
+      "saturazione": [
+        0.88,
+        1
+      ],
+      "valore": [
+        0.2,
+        1
+      ],
+      "colore": "#f0c020"
+    },
+    {
+      "nome": "salopette",
+      "tinta": [
+        190,
+        250
+      ],
+      "saturazione": [
+        0.3,
+        0.88
+      ],
+      "valore": [
+        0.2,
+        1
+      ],
+      "colore": "#202020"
+    },
+    {
+      "nome": "scarpe",
+      "tinta": [
+        280,
+        320
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "valore": [
+        0.3,
+        1
+      ],
+      "colore": "#f0c020"
+    }
+  ]
+}
