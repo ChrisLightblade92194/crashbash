@@ -475,6 +475,52 @@
       "vertici": {
         "5": "skin/palette/5-tiny-posto3.json"
       }
+    },
+    {
+      "posto": 4,
+      "cartella": "skin/r1/l18-posto4",
+      "personaggi": {
+        "5": {
+          "897": "353055d3f22087ccf9e96ca0912a11144cfeeec4c79735f4a286f0d8ad7c4061",
+          "981": "2bd3cbfc145d115f353a5d4b7f11a234861eafdc6b636beaf6250b32bb06571f",
+          "935": "cce6b27b2887983873792b136462eeb46179be79bfaa2c1ebd2977d72855e8fa",
+          "841": "ae1905eaef2c5285b79ff7ce3ae8ed32d1649a54761c9bf88db0a9e054a6a609",
+          "871": "1a69cf96d3612441a12d3b7ad6d0465e20575908ec5511dcd5bc3089d6c12dee",
+          "849": "b7b636389ff1637fb0be19aec5209d06997772795f66048280b0fc67679da498",
+          "965": "e7c5dcf1d314826bfc05e51e7d99d656c3b782796dbecc5dff49ba0be905a315",
+          "919": "38bfbbad73792c3b4777850f29402fe71c47ac7071011f6b4464b4e28a6f1625",
+          "951": "629f43195865bdb2259190981a1d4a570e6ef7baf53656bae72c37bfaae80618",
+          "825": "641397a653c93cd2f3a55a3055786856ae6327215e8506ecc3569b92295fc277",
+          "809": "be686f2bdccc9c16a22e5f04ad5b4b00d24e77b59c200e4214ef252259520c9a",
+          "887": "a419d6ca55e391f141a39e951350c3dca644f86bc4e2bb43366acab16863593d"
+        }
+      },
+      "vertici": {
+        "5": "skin/palette/5-tiny-posto4.json"
+      }
+    },
+    {
+      "posto": 5,
+      "cartella": "skin/r1/l18-posto5",
+      "personaggi": {
+        "5": {
+          "897": "4a2a44196c276c8ca538c5ead56cb30ff01901768ceb5d6db9c04453b50bd7ea",
+          "981": "677ba2d58ad7afa9d308a7378d63a9f3ff6af017a266aebcbb0a907838cd6029",
+          "935": "1adcc6a5d7076d26c109f806caa9fa18b8aee496c7df778ab5166bc3a2a59046",
+          "841": "e37f2132b7ef187450eb63c10c6b11d4a103128aa31a4b5e7475085652f763c4",
+          "871": "5f076b03eaa1931d7fb2cd501fdc474c43620ef51c2345932ae640ef49ca9b77",
+          "849": "66575cdfd741e13c46021a8420015b1817d96af9075750f15b0169458252efd2",
+          "965": "74603908d182634c9ad12c7ceb08e18a1632f7097aafbfbd6346fd1c60b82401",
+          "919": "9d970a0bf13838e1db8f0b5e2a71b18801271e4a259fe5190d91e3db6218b49b",
+          "951": "6242d4cbe3d11381369e3cf68884c0c1ef3ff6f86f0656896c5ddd25906d9f97",
+          "825": "cd77c7023f08ba942a24522c2f6a0fe900575a99d96ec8bf57d009a26811dde6",
+          "809": "30e0c9f478cb40aa0aa483523e787a394f13bdffd9c8c2def5c4ca856939f84d",
+          "887": "f0e5ab30c46637ee095de32ced1ff570ee8377aef18446c3939bb8eb8f911e9e"
+        }
+      },
+      "vertici": {
+        "5": "skin/palette/5-tiny-posto5.json"
+      }
     }
   ]
 }
