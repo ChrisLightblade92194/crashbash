@@ -360,18 +360,18 @@
       "cartella": "skin/r1/l18-posto3",
       "personaggi": {
         "1": {
-          "813": "b2809f9c99d6cf0f079bf4666ffdf584923fffe121bbb95ea35a6111db97e4d3",
-          "829": "2ac52e43869632f614a50b972c0e3e7628ad0eede0bea037e26407c1b4f7cf51",
-          "845": "dd4e2b96cf7f9c0590d24665c67da15ba7e4f0697993efae6773dbf8ea8aac3d",
-          "861": "242c3dc768cb5938ecfbcf830fa1452ad0e0c2d272b742e837d39ab1ac1e5520",
-          "877": "9d3412e41217b3db089f42f80ec6e9ab597843fd755ca9375a2198e10415931f",
-          "893": "4c5d7ccc4fc77aa56511af90486f3873e118455d74d2e533272c98732c37a864",
-          "909": "8945bf6032ae7445b5176b82315acadbe1b6068e94ad22296866649e818ac596",
-          "925": "1a3066c6e22c63a4a678ecc9f7c8541c5ecbfa8527206bfbd4641deb7e88c3e1",
-          "941": "e6705713230526ac7a28abc748ee1b5e861a63d5b945c0981c1d8b04e0200981",
-          "957": "d6dc183d179f39bcc9c4351bb3f112de5cf760bd9ad9b1b82b06879b69e3fbff",
-          "973": "ae7f7e8c8f620ce64ed0ef8e973983b2a6bccf5692a9193ed4662e36dce3e86c",
-          "989": "edd939b81d635b1d026e71a6fa0a02b11f0c9830e7b44402041f75f55550c425"
+          "909": "b994a3af6d987a43afa2517b18a179062f185373a2b728876b1d2a35554556eb",
+          "989": "a5fcf11c4e195046b74ff4fb534c84a805a5cde993513a69ec3ff8f79c957678",
+          "941": "59af2a90766ada86e036ad7556fc6852d5c89934471ed72abe9e07838f7efe7e",
+          "845": "56ffe450c5f21fe3bb85d14bed00913d39576e541336312aa687891e66421d3a",
+          "877": "5a7df633ee7180eddddbb8ad86c1d282e9b04cea38a5d00610a39a69d7b9f743",
+          "861": "70353b68000614c9ee2e6f14c55246fecf6e43a90b825e8545cf349e9561667b",
+          "973": "9293a7033ace4dd14d7d7eeba09b34f4e1f3899fd45a9e5869981fbb81ff9fcf",
+          "925": "24688b3a42bab0b934b9d385bf46c6182ab6dcb1a3e8999abf7d2d7f5cd1b7ca",
+          "957": "45fe4d55827ba0655e4e425820002a74fd2ded8067240c50393ea64f9816a968",
+          "829": "12e9c48a3ee6ad0bb3e19e8d51412951cdfe9384d2726f89368c114a6cb1933a",
+          "813": "a68e8d474a64635866d84d1614a53eec9a490c69ea446a2013bdbfb760ca8c29",
+          "893": "cee1eb8897b4bdf0c2bb9747ee6a923222f2a996fca5b9de62862dc9ca4ec427"
         },
         "2": {
           "803": "ffcaf8f07c1e62cf7a0f51986307a77cdc16df47e57fb60e269478a4f4b98716",
@@ -473,6 +473,7 @@
         }
       },
       "vertici": {
+        "1": "skin/palette/1-crash-posto3.json",
         "2": "skin/palette/2-coco-posto3.json",
         "5": "skin/palette/5-tiny-posto3.json",
         "7": "skin/palette/7-dingodile-posto3.json"
@@ -482,6 +483,20 @@
       "posto": 4,
       "cartella": "skin/r1/l18-posto4",
       "personaggi": {
+        "1": {
+          "909": "dfca75249c9273d84a53cbabdf408dedf2482a23b4fb8754417c8814c82c19fd",
+          "989": "a5c13fdb73a6beac2d4b1a56b4378299de0946f34f683808e450eea6803cdb38",
+          "941": "0f90991e36fd45dddc351d4d35c07446c3d173fe7ad056f53a3d33573c6f5a37",
+          "845": "017c6bb35eff1fc3caeb3d7a11524db494479779155b0608e5925a42bc4c7274",
+          "877": "320d38a4532edcdf70b817a179b7dda42be2cf63bd33f4030b4670fd9675167a",
+          "861": "08221b56042fa3909056444bbafbd6b4feb748ce2d3e2128fa5417826cd8ca59",
+          "973": "8d0844e86ff125743869a53365ca998437b78c924d75a361e79c535855c515cd",
+          "925": "9899737d863de57a36ca2a38ef091a72b30f5e3648ad7fa80469d1db4a56f28f",
+          "957": "1807b21c0dad3b42967553d6e604c7a08b17fcf155fb9ed6ea8f28a6de2de7df",
+          "829": "5d76962eeb399bb14737e3bc5e7d6ca5b4c03b5d558b139dfa45fff4fbdf70d6",
+          "813": "296357f8ca6cfb78b2728e09d0443a363f522a27826e0ee854a34ce72b3d93c3",
+          "893": "53491070e5acc61f329ee4bcfa2f91610e60bcfdaba06d80c2b53d68fb5cc642"
+        },
         "2": {
           "907": "7dc45149c23e56b69183258846f336277a78cbdc5cbf98281ae1b2e9d85f1d04",
           "987": "86f35a0d1d9e11568e73e259c544481bc3136b2a6647ccf37059a5dde2c88074",
@@ -526,6 +541,7 @@
         }
       },
       "vertici": {
+        "1": "skin/palette/1-crash-posto4.json",
         "2": "skin/palette/2-coco-posto4.json",
         "5": "skin/palette/5-tiny-posto4.json",
         "7": "skin/palette/7-dingodile-posto4.json"
@@ -535,6 +551,20 @@
       "posto": 5,
       "cartella": "skin/r1/l18-posto5",
       "personaggi": {
+        "1": {
+          "909": "97602a22661fb34edffa61a89afe9c11b6f8723372d3c020871392518098d293",
+          "989": "a4bfc40dd922445249d0a6489b8a641414f9dfc4000476334b18aaee71edf4f4",
+          "941": "471570cf98866541345ed9c630e12c0b4678e6780cd324762e9c831201a2ee82",
+          "845": "e32b377877fdcd44dbac5dfc412c92f03d595ae411b82751893b0df20b10240d",
+          "877": "c81aac3baaf2f4497f1cc75e8ad71953deaf87c75c1fd6f37d3d2ce0ac503c2a",
+          "861": "cd449088e26a56477fac3a94ff48344ebb8a94d76f2a1c09a0fd9f0721b6d80f",
+          "973": "9f20e302588c827c727e499dff742411813a495b564c38a8318b35af2387edb9",
+          "925": "a801534eef9f262dbbaef0768b12906c530fef846bc7534d85e73886bc3ecead",
+          "957": "d65d0c1a8597fa0524aae4313d3bc11e1a8241cd8a6ddb0efb12abbe83deb161",
+          "829": "3712b942276db32c0bb1bf79bcc76b0877de70a6562ac34121ebe450879b3d6d",
+          "813": "73ffa49bffe6b26e31f92edd0d1e240df2ba609e2fe8ad7e3f5249930a4df0b2",
+          "893": "0655b0bf829c5deab2ebde5ea0c0a7306a7739b07b313af37aca87e784c70aae"
+        },
         "2": {
           "907": "00dd853137b68eff1aa4c851d690f194c5002d0494ed7e01749653d3e04fb78b",
           "987": "7e96eef542f5ab12d2ad4c1b98bc898bcc3174de02e3386ea6e7bd6cd48cd801",
@@ -579,6 +609,7 @@
         }
       },
       "vertici": {
+        "1": "skin/palette/1-crash-posto5.json",
         "2": "skin/palette/2-coco-posto5.json",
         "5": "skin/palette/5-tiny-posto5.json",
         "7": "skin/palette/7-dingodile-posto5.json"
