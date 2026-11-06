@@ -1,23 +1,102 @@
 {
   "personaggio": "1",
   "posto": 2,
-  "nome": "verde",
+  "nome": "oro",
   "gruppi": [
+    {
+      "nome": "pancia",
+      "tinta": [
+        22,
+        35
+      ],
+      "saturazione": [
+        0.8,
+        1
+      ],
+      "valore": [
+        0.85,
+        1
+      ],
+      "colore": "#f8d860"
+    },
+    {
+      "nome": "scarpe",
+      "tinta": [
+        0,
+        11
+      ],
+      "saturazione": [
+        0.8,
+        1
+      ],
+      "valore": [
+        0.1,
+        0.25
+      ],
+      "anche_texture": true,
+      "colore": "#e0a820"
+    },
+    {
+      "nome": "capelli",
+      "tinta": [
+        0,
+        4
+      ],
+      "saturazione": [
+        0.8,
+        1
+      ],
+      "valore": [
+        0.5,
+        0.7
+      ],
+      "colore": "#a07010"
+    },
+    {
+      "nome": "pantaloni",
+      "tinta": [
+        200,
+        260
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "colore": "#6a4a10"
+    },
     {
       "nome": "pelo",
       "tinta": [
-        5,
-        40
+        0,
+        45
       ],
       "saturazione": [
         0.6,
         1
       ],
       "valore": [
-        0.4,
+        0.26,
         1
       ],
-      "colore": "#4fae2e"
+      "anche_texture": true,
+      "colore": "#e0a820"
+    },
+    {
+      "nome": "sfumature",
+      "tinta": [
+        0,
+        45
+      ],
+      "saturazione": [
+        0.45,
+        0.6
+      ],
+      "valore": [
+        0.4,
+        0.6
+      ],
+      "anche_texture": true,
+      "colore": "#e0a820"
     }
   ]
 }

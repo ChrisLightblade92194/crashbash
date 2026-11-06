@@ -1,7 +1,7 @@
 {
   "personaggio": "1",
   "posto": 3,
-  "nome": "lava",
+  "nome": "zombie",
   "gruppi": [
     {
       "nome": "pancia",
@@ -17,7 +17,7 @@
         0.85,
         1
       ],
-      "colore": "#ff7010"
+      "colore": "#b4bc98"
     },
     {
       "nome": "scarpe",
@@ -34,7 +34,7 @@
         0.25
       ],
       "anche_texture": true,
-      "colore": "#181818"
+      "colore": "#3a3a3a"
     },
     {
       "nome": "capelli",
@@ -50,7 +50,7 @@
         0.5,
         0.7
       ],
-      "colore": "#ff5010"
+      "colore": "#2a3a1a"
     },
     {
       "nome": "pantaloni",
@@ -62,7 +62,7 @@
         0.5,
         1
       ],
-      "colore": "#401010"
+      "colore": "#5a3a7a"
     },
     {
       "nome": "pelo",
@@ -79,7 +79,7 @@
         1
       ],
       "anche_texture": true,
-      "colore": "#2a2020"
+      "colore": "#8a9a6a"
     },
     {
       "nome": "sfumature",
@@ -96,7 +96,7 @@
         0.6
       ],
       "anche_texture": true,
-      "colore": "#2a2020"
+      "colore": "#8a9a6a"
     }
   ]
 }
