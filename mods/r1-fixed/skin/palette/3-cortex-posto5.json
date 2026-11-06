@@ -1,0 +1,105 @@
+{
+  "personaggio": "3",
+  "posto": 5,
+  "nome": "vampiro",
+  "gruppi": [
+    {
+      "nome": "N",
+      "tinta": [
+        18,
+        65
+      ],
+      "saturazione": [
+        0.4,
+        1
+      ],
+      "valore": [
+        0,
+        0.32
+      ],
+      "colore": "#a01020"
+    },
+    {
+      "nome": "capelli",
+      "tinta": [
+        330,
+        15
+      ],
+      "saturazione": [
+        0.8,
+        1
+      ],
+      "valore": [
+        0,
+        0.4
+      ],
+      "colore": "#101018"
+    },
+    {
+      "nome": "pelle",
+      "tinta": [
+        18,
+        65
+      ],
+      "saturazione": [
+        0.4,
+        1
+      ],
+      "valore": [
+        0.32,
+        1
+      ],
+      "anche_texture": true,
+      "colore": "#d0c8e0"
+    },
+    {
+      "nome": "camice",
+      "tinta": [
+        0,
+        360
+      ],
+      "saturazione": [
+        0,
+        0.03
+      ],
+      "valore": [
+        0.6,
+        0.86
+      ],
+      "colore": "#25202c"
+    },
+    {
+      "nome": "ombre",
+      "tinta": [
+        190,
+        230
+      ],
+      "saturazione": [
+        0.2,
+        0.6
+      ],
+      "valore": [
+        0.15,
+        0.8
+      ],
+      "anche_texture": true,
+      "colore": "#6a6a6a"
+    },
+    {
+      "nome": "pantaloni",
+      "tinta": [
+        200,
+        250
+      ],
+      "saturazione": [
+        0.7,
+        1
+      ],
+      "valore": [
+        0,
+        0.5
+      ],
+      "colore": "#3a0a14"
+    }
+  ]
+}

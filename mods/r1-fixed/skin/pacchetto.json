@@ -388,18 +388,18 @@
           "987": "e0d9cce701952bf2345e1a9f69a1bf35797e57b3318733131aafc2930bf6c0d4"
         },
         "3": {
-          "811": "fa2f6ca547369d41de87a1655336b9272d76d8b8cbbc654add775fd6d37c1877",
-          "827": "ed8cc90c3d56f39c26103611059313dffb773f447f5425367b45452612c22590",
-          "843": "ce34389adcef2eaa3a8e26efdbb244a80f0754aa97014201b487efa4ea966c47",
-          "857": "29c0542a8404f81753186ac7edb2e11e6f6f673e19d8ea5fe01db92267112669",
-          "873": "2a543c3dd9c8ca975a48220436c7507c0c78e295b2ec1c88b9a19acafa66d885",
-          "889": "6255eea2a7e34e3bfc7da4f4fbc58a3fc01482555a56892166926decee700c20",
-          "905": "dd330eabd84d703f303f1b31c38a22a0a84e3202a844cf2b96d749c86e5015fb",
-          "921": "a050e8085f2735a886de48b5306726054cc696e903eb7b8f4e848d84a7c3ded7",
-          "937": "42b29af1df8136a6507740982fa3e51fa97597c78c4f9637bb5d6b478d92bb8e",
-          "953": "2124e45e14551ca3c8482c534771dae01053ebc2436f03b05d6ecc76baa59178",
-          "969": "7df07f4df7e96ba6d5b1ab528613ed34acd83b2b268a7497641736be905ee5f6",
-          "985": "15abecdf11905e69d97e9f32b3131f917207ff2da774221ee3b87ed5604687af"
+          "905": "d97f88f7d3cb1cea6c332cc37b5d1aad037c9f74e1fc7fa73eb9bb93ae52b217",
+          "985": "87db527d5d5bb5a6ba5e59bdc32650d2331e4b51f0bd16601a57161eb1ae245e",
+          "937": "be7a70659377770769e6c0edf7c917a6c9bef38e66d08320332a04389be3a4c0",
+          "843": "c75cf167b0c46e38ad9ba8dc8a13daeea28e841b8e33000c450aee047ebfb371",
+          "873": "ad11a4d3893478a3ccf8338b0a45846ef9a7e91d55ecf0c75f082cecca60b283",
+          "857": "35eb266c87edafe7d1bd7983e628e8cc5cd7d29b4dd492a52f1cb75deeb5ff09",
+          "969": "d83a4c1e8c0e1293a4e81a0726e5cb35087a9e1f33b7d2a2cdb83948655b257d",
+          "921": "168aee87c9a15412bdd3a508f23e7ebba8a22d5df86372d82e3daf87952c0009",
+          "953": "980b5707b7f01d6d44089443a5ce67d288102cd25b954ff07343ede448b30a33",
+          "827": "cf9a0f91354b6062bf5b0d54e91403d40fd26c51d78a84fb5941854a0032fca7",
+          "811": "47c35bfe29988cc2b949e9ed302c27c34e809aa24d698dba80c53db83b598e48",
+          "889": "37df7715f4184fea8ce3adb8f4be0d7bd5a9d7b37b9b8c558e43ae1c6e5bb15f"
         },
         "4": {
           "799": "b2c87c7af54d4b8c9032b384c6a77144ca6a7fff6d3dae0315429c440b395621",
@@ -475,6 +475,7 @@
       "vertici": {
         "1": "skin/palette/1-crash-posto3.json",
         "2": "skin/palette/2-coco-posto3.json",
+        "3": "skin/palette/3-cortex-posto3.json",
         "5": "skin/palette/5-tiny-posto3.json",
         "7": "skin/palette/7-dingodile-posto3.json"
       }
@@ -511,6 +512,20 @@
           "803": "29952863c9a41f8c9eb37327ef9ff69dbedfe05a9f59fa477166f795d768cfda",
           "891": "10d64c8521f8460160c02c9f885b1335bcbf5fdfe51e4a274cffdf03c1e72afe"
         },
+        "3": {
+          "905": "1b9bebb6680924a7d522300981c9a138a4b8d29c5d9384204ec0a174e424b8fc",
+          "985": "c2fbac888659f5946083d208cdc4adad8e904ef24d47c5c971f4fda1883512e1",
+          "937": "d8bbdf4f316770ab8ec5b0c50352e75f6faccc0780b6034e86d50f4ca867d5f7",
+          "843": "a2b45d730f271e83e0798d7bc1c85919a5a47468e76b3cf75c46b9fe67503162",
+          "873": "200d767bd08bae2e32ef0d8a37e3c2d70986e7034c83c576035eb748dac4b1d2",
+          "857": "0d2b823e3be67b412f3a82f8dcdb8e46e9466faa5c9f48d621510110ae28dc86",
+          "969": "c4f8fbf4ff343e2bfba3446b3dbf6980f060bf249b1c04668e23f820596cb8ab",
+          "921": "0bd39e5616a836d20a5431113712fec3652dd3d02cfb6b4e141e7a4d803f205f",
+          "953": "af3bcbcad26928b55982ee4c3f41c1cf52ac24dd044cf6120dcd403738409e7e",
+          "827": "188274de845f018bfc786ca736dac53826ae2ed5f9e4792362f009e4c63d8a59",
+          "811": "ea7f7c1fd57b08d04b09e07464114123788da6997e6528e2cafb4c603f0fcbef",
+          "889": "6ea2bf221a60fed97fe1ba3848c69aa752757e3bbb43afc8122ea6786c20d3a1"
+        },
         "5": {
           "897": "353055d3f22087ccf9e96ca0912a11144cfeeec4c79735f4a286f0d8ad7c4061",
           "981": "2bd3cbfc145d115f353a5d4b7f11a234861eafdc6b636beaf6250b32bb06571f",
@@ -543,6 +558,7 @@
       "vertici": {
         "1": "skin/palette/1-crash-posto4.json",
         "2": "skin/palette/2-coco-posto4.json",
+        "3": "skin/palette/3-cortex-posto4.json",
         "5": "skin/palette/5-tiny-posto4.json",
         "7": "skin/palette/7-dingodile-posto4.json"
       }
@@ -579,6 +595,20 @@
           "803": "db6d3cdf6d5da3ca9cf6631d6399f2b982f26591a327ee97fe2c9270be52a243",
           "891": "e8fb4ddae6e33daf5c7e5db20c4f1f53bea62722071ab33bf9df9770c893bad8"
         },
+        "3": {
+          "905": "acd6d86b439640fb381cfad71dfeefe33dae37ccb229e2b368a75d9364a30b89",
+          "985": "c29f66c38e4350692bfd0a5eaeac1c3636325191086034f08d701fbdac15a80d",
+          "937": "7a28317adda953f42839067237b31604284c1081aa62d9b8d622432aaa9092a9",
+          "843": "223f672fb875809131c6fc0361474897e66fa6afe875a20d457c8c316b3fa575",
+          "873": "88e0887c3b053ce9ffca87b3f34bd1b158b0f6027ac60d8c67748cd7ea97851e",
+          "857": "af4112a047471b21f75e778862033cc8f5970d45343e11d1b95733b001556a59",
+          "969": "1358bcb90deb0e19ae638d94d3ae0455d8cdb77ba94c929d18dd46a23cd4fa64",
+          "921": "89a7c593a19dcfa26ea72a22fdef57235a42e5ebd0611fcdc95ea5b32ff18ded",
+          "953": "d9a085ec63b2d5b888c3e314e8aa1c98e84860d0a45ab70239cdeeb02abcd077",
+          "827": "b18c7a61edf0a8f5fcf9be2223b09fd95f2d79bae745293a6a3a46f1fbf398ef",
+          "811": "f6993c73666611f220e040de0c00c23c76b5177252946f4ee70981c2322b1bf9",
+          "889": "e4f82a490f01b6ed09c2be7c57ce4e815b828d0f6654a4ffdabd797082c0dc85"
+        },
         "5": {
           "897": "4a2a44196c276c8ca538c5ead56cb30ff01901768ceb5d6db9c04453b50bd7ea",
           "981": "677ba2d58ad7afa9d308a7378d63a9f3ff6af017a266aebcbb0a907838cd6029",
@@ -611,6 +641,7 @@
       "vertici": {
         "1": "skin/palette/1-crash-posto5.json",
         "2": "skin/palette/2-coco-posto5.json",
+        "3": "skin/palette/3-cortex-posto5.json",
         "5": "skin/palette/5-tiny-posto5.json",
         "7": "skin/palette/7-dingodile-posto5.json"
       }
