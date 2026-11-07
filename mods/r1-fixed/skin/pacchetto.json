@@ -458,18 +458,18 @@
           "883": "b99a5dd4e7dc81811f261d77939e29fa4eee22b07ed95e66130bbfa4be8feab0"
         },
         "8": {
-          "801": "d07c8bba59a3fcc1fe8d4ad2d745a610686379e56ce848a8a02d67d619e44b06",
-          "815": "94549fadfc22dae0d30bf639e2aace0b35cddbc0c060ebc49c92a1c2168b43fa",
-          "833": "bb8db63662e4c8174d8f1f8c99dcf0e2659c3a7a1b1c4b937029d7955ce83017",
-          "851": "e955cc8ef1f24699ca407f95e8743bbf1fbc810ad7d4281bd26a1961cd6340c3",
-          "863": "df3d73374a3c5715ac39339da06cfe444726235ad65afa65558a2c19c3a372e3",
-          "879": "8b205f4db4ba68025927cc521fad4a79009517db7820a12e9666d837d2e8820e",
-          "899": "f8844401d68d7e8f39da4e0408d72e3ca03510103af68d9e018366aacf11136e",
-          "913": "ff1ba32e2a7c5c20200c8bcb30886600416993dbbf9d8458bb163c43221282d3",
-          "927": "6025f546cd6b978854a0df7bd44b9eca8b471a11871283a1a1cf5a035d671ee1",
-          "943": "66f109d30d0344a6fcc909b52866bf1082af749e4019a3afc95abc0536e1cdb1",
-          "959": "cb0fc32bbde12ac5a7d56b4b02b3e972d1be6fcc092da5571c3a62e5cb836581",
-          "977": "88197feb068a89ebbc4d2c6bcc22662450d7d26f5df9dadd35275d24846e0752"
+          "899": "396c49fed4a42016782252f7c0b0ace0002276dc0f022ba0a42a1728abe6bd83",
+          "977": "67122318535b782456f91ee116fd01fb565c071532411decb6a7846edd26481c",
+          "927": "a354f4169adf9e7c41fd42ea19802084fa9e02c42b71c6d272d80e40388fbb87",
+          "833": "3c92ec9cd8c0b36668d61acb29cae82583bf5bdb42ce0d639f010548e1ef4784",
+          "863": "291ed8d0e473f9b651cfc3c16c2720a198d00efcc7108d1fadb957da004ee16e",
+          "851": "bd82df1ecefb10e7e67603d0a6ff1fc4bf487e9f1f89a39bd33ea1ef758dcc06",
+          "959": "99a6cdf3bb4a51432d19dbfcced72eeb897d262069582bf6f6e6d2be96988192",
+          "913": "93ec6d8643d93d5f9b8f94d59ac55b927f165daa46d97c8b64fe9d9f6843916b",
+          "943": "1f38f404e23a5a8822cfff060941d60d5ff7c023bf023819c137033b9b6d7fd6",
+          "815": "2f7e8b31096dbdcac29bd19ff7b06041a6f1eb9fb1e13cca73130afadc62283b",
+          "801": "fa17c4b6e580c71a0c78781b36fa975c3693d57c1b0b8bbffe09528ab8f152fd",
+          "879": "3f73c6ccd6ee0a7b534b8de45334d254feccc19f08a0842a6759d0f3438743ad"
         }
       },
       "vertici": {
@@ -479,7 +479,8 @@
         "4": "skin/palette/4-brio-posto3.json",
         "5": "skin/palette/5-tiny-posto3.json",
         "6": "skin/palette/6-kong-posto3.json",
-        "7": "skin/palette/7-dingodile-posto3.json"
+        "7": "skin/palette/7-dingodile-posto3.json",
+        "8": "skin/palette/8-rilla-roo-posto3.json"
       }
     },
     {
@@ -583,6 +584,20 @@
           "823": "fef88c2f05d99f2b53868659b76ef708b713c84abef78df1858946c3521c47f8",
           "807": "5fba14c49384486c0b4cca51b13e55c669b56410387ef2a895b22d799d2b1e29",
           "883": "84c607168ae1a2c07f4877efe3db6fd07d4d2223e4983066a190ac94c758a5c6"
+        },
+        "8": {
+          "899": "07b8e6e1584b93be464b4c1ed35f7675c4bdbdd7fe96972d9e2c6eb4dd4e1c1c",
+          "977": "6f1fe7b758c509c02f557a76b18070fea498f872858d9fe028786acfddc880c0",
+          "927": "ae50c812dafd32616ead7a2af023e0057f1674b6dc0d6280ca0fd98b1d40362f",
+          "833": "803eeecaa81ad1ea02fa70fe479e90aac5bd395d903bc66c16057b3e4b0594e8",
+          "863": "f154f43676bd3a195e8dbac92dcd77dd13af7a1d386247ae740772355cfcdf63",
+          "851": "bca05d550dc9c6fb6ea109b77fcd325936e6197cacc360d24dfc856c97532980",
+          "959": "3e0f2cc4ad8a55c27cb0dc47b968205bf3f05ad8fc9756dabbe156fec72f8453",
+          "913": "4a1c780c4b24bafc33f0a05b72f11cc9e1da8eaf4498510573b096cba5dfa677",
+          "943": "d843488cd721f065ae3a27a9b49b58c74e6528902957a1e4a9f3a66653605d7a",
+          "815": "8fe3284392d1e05d415d8104f5b179991eaa42fcbd5feb3e0a3c64689a5c5a21",
+          "801": "098ff9dddd8126b158122a2890efacaa3ffa61cf48947fe1782ef2f5bdad2b0f",
+          "879": "911c94b2cf64c540e44be6b77fb99ca9d24939b0d772bf42724dd18b1ec7d55a"
         }
       },
       "vertici": {
@@ -592,7 +607,8 @@
         "4": "skin/palette/4-brio-posto4.json",
         "5": "skin/palette/5-tiny-posto4.json",
         "6": "skin/palette/6-kong-posto4.json",
-        "7": "skin/palette/7-dingodile-posto4.json"
+        "7": "skin/palette/7-dingodile-posto4.json",
+        "8": "skin/palette/8-rilla-roo-posto4.json"
       }
     },
     {
@@ -696,6 +712,20 @@
           "823": "525b065050a81f501b0b4022dd31b5bb0e365c442724af50152da09352ec6c97",
           "807": "c4cd1f15c80ff0af3ad97e312787a1e6c1b644eea15b307226153e7394b3b7ff",
           "883": "2fc204c62995f2633f17241a36fa0b9b3be8b406908e937b2a89e4fa50971636"
+        },
+        "8": {
+          "899": "e7266710d317ddbffde3b47bba87230ab45e0df8a24cba3bfa4a13b0f5f9fe22",
+          "977": "d7c7873aa1078a919504f495214fb40fac29642c9f192a92f78088ce4fcd17fc",
+          "927": "6929ff628f5eace87772a78186eff07259c8f40b708cb40620594b1661448a3a",
+          "833": "a2c815f1b305f09f5d65b403a3ded6899c490d9dfc1ca333171df5da8de8a92e",
+          "863": "8b4c742cb16af1fa0ff179e7acf9d6b2e64936d8333989f7f69ba2dbb90ccadb",
+          "851": "04daa1a2ebe5b54b6b39f1d20893d7a20279715c4234241a115a90d34689f63e",
+          "959": "726338584baf32290ff76fde36be6209f08b4af9d48cb249f798031ea0818989",
+          "913": "d7c7ca8301ac6ed878fdb20a9fefefcbfea0f17ce8eb2a93cabd1738751a50aa",
+          "943": "e7bdf82afdeb5d05e108faa993412d2e429a276ec22b5c3a4a8d3bb59ca51b50",
+          "815": "621c55c91218a75aa7dbb0a8d9ddb819da0171eaaccf8ee467077960702353e3",
+          "801": "a01ac9cc637bf2e04ff1db29f8baad782201cc05d55c301d3256d57ebf3f9353",
+          "879": "40ad736a6df1110685b27b4cc6dd44df6cea10c83db136e929e5784fe9174987"
         }
       },
       "vertici": {
@@ -705,7 +735,8 @@
         "4": "skin/palette/4-brio-posto5.json",
         "5": "skin/palette/5-tiny-posto5.json",
         "6": "skin/palette/6-kong-posto5.json",
-        "7": "skin/palette/7-dingodile-posto5.json"
+        "7": "skin/palette/7-dingodile-posto5.json",
+        "8": "skin/palette/8-rilla-roo-posto5.json"
       }
     }
   ]
