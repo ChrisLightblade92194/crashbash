@@ -402,18 +402,18 @@
           "889": "37df7715f4184fea8ce3adb8f4be0d7bd5a9d7b37b9b8c558e43ae1c6e5bb15f"
         },
         "4": {
-          "799": "b2c87c7af54d4b8c9032b384c6a77144ca6a7fff6d3dae0315429c440b395621",
-          "821": "dc7f3f7ede718bc4bad7ed6ad858c703f15f2c28e9f2c09404c84ccf69cb9707",
-          "835": "2f4571749a6a19c574c59f5c67b322b7299f343b914cdf6dfa301620dff62a16",
-          "855": "b3d2f75055e29f7e6e48e7abe721393e3f824326e0a031a548bf067a13c52d47",
-          "869": "12b55fd04d51f666f5b91ecab656e2b55945b32f185b02084ff985124cdd7c22",
-          "885": "c70d8c83649c32fbdc96f118a4ada542bbf530b6c1fc5a8017837b667391293d",
-          "903": "0d64bafb56f1ea001212de42527616f2b3d5f3e24630031ef8161ee5ad69caaf",
-          "915": "9d42782ed07daa54c15086bcde3fe82d667670d9dbfbb139467926888c0a339e",
-          "931": "53121792bde3355b33dbc48fcd0540dd79b26fb241698145312ee70a38f8d300",
-          "947": "99356c07299171dd1acf72d30096e89f47429cd743f2d02d63912373370375dd",
-          "967": "f785ef3623754fd4f0dbcb61547cf2f641867825c3103e8149c563eb53543b19",
-          "983": "3cdfde364846e395ad9e53e589d7b4382c0d3cb08d00a40a443bb781b1bfb4da"
+          "903": "820e6c4fd8940d1785bf8e6fbfb6bbdb74e24866dbfb3bed6e25f6503a9a66a2",
+          "983": "6fbe6dfc7fb02d68dfc176e7ba1ead85f08f96405996111615e6f53ef08673cd",
+          "931": "9e09af2c067ebe09b9d7b5a2ebf6d6c419aca1da5ce5889474f61374298482e8",
+          "835": "d7a778effc529d4c3e9fe4408f6971e30a830fb784d156e0889e8369326821fb",
+          "869": "12b967532e7c06aa5537793a70c6d3854d0bbfa5e7af930c57c0a3619b423d8d",
+          "855": "2a73829176877b19c5a54d7e3f5390ef9cde2ead342747906dfd9d83bf069271",
+          "967": "3b7b4387f3329ce1ee91aa94af45e5b4191a0ae8730cf3d9f3f7f6de91b92094",
+          "915": "a4b000b6292f3647ec77fe9455fb2e4703e9574fbb4cc4ee15d07dfee5f5a5f3",
+          "947": "ba1133960fdb656cf32acd8260e96fa79797d8cbe86a78c297b37ecc9552dc73",
+          "821": "2ff9d2051821cb37f8d7179d8a5edf90b1ea3b6cd105df05a5e3abf589d08d44",
+          "799": "48f8d2c9aacc1984fe885eb2841be64675e0030ef52a143decfc876fdeca589d",
+          "885": "b06dd21b4b089f5fb4ad2e6d6dd11e9f388ec6cfa703e453ce5c5883afa2348a"
         },
         "5": {
           "897": "f2d6a776042acc15ef7edb551fb45f8cea2b4ab75b324abe0343842fd982e0f1",
@@ -476,6 +476,7 @@
         "1": "skin/palette/1-crash-posto3.json",
         "2": "skin/palette/2-coco-posto3.json",
         "3": "skin/palette/3-cortex-posto3.json",
+        "4": "skin/palette/4-brio-posto3.json",
         "5": "skin/palette/5-tiny-posto3.json",
         "7": "skin/palette/7-dingodile-posto3.json"
       }
@@ -526,6 +527,20 @@
           "811": "ea7f7c1fd57b08d04b09e07464114123788da6997e6528e2cafb4c603f0fcbef",
           "889": "6ea2bf221a60fed97fe1ba3848c69aa752757e3bbb43afc8122ea6786c20d3a1"
         },
+        "4": {
+          "903": "fc9e9349568f3f1ea818f702ba894357ee73daeb44787df35e6bb21721dd4dd7",
+          "983": "3fa9eeb9ea459094a7036795214e94e3431c0a8080629f7fd79080823f5e2015",
+          "931": "5da3ab1d058345a527373109530d4adcda39fae6aa3ba60a74af3981d72d9f88",
+          "835": "0c3f42643441c5b308473586e432d73d1204e682500858dfb68f75507a73d133",
+          "869": "e3ce5508c3ae4daab8549db344387e5252f0e2c28bab2cdc5db096461e63a1a0",
+          "855": "3b0648a0c0fa83514fcd24e2de3aa021d453993b309dce7cce1084a1c7b3dd58",
+          "967": "28194dd34da87a518599edbf7949a89d80a8f8cfb26662e7e02db24189ccbf68",
+          "915": "eb56a9f819f6de3171967eda889e6ea0640b4ca742c78104bf4c7f5de303c1d7",
+          "947": "801e9d921c6a1fd72298f94f187d683f8dfb4577bf48e881e4bdaa847342f935",
+          "821": "e3b1a79431bb0f56d529a4b259e39b4e160a2897704f8add5c0d9079fe7f920c",
+          "799": "b276465d493e6486c30a94d1f983f2dc92a0b47567d059be9c75dfb1c21a4a60",
+          "885": "9b05b8084f8774d92bedd2a921841c287bfd5322950e5bd93825b7ba5ef70bd8"
+        },
         "5": {
           "897": "353055d3f22087ccf9e96ca0912a11144cfeeec4c79735f4a286f0d8ad7c4061",
           "981": "2bd3cbfc145d115f353a5d4b7f11a234861eafdc6b636beaf6250b32bb06571f",
@@ -559,6 +574,7 @@
         "1": "skin/palette/1-crash-posto4.json",
         "2": "skin/palette/2-coco-posto4.json",
         "3": "skin/palette/3-cortex-posto4.json",
+        "4": "skin/palette/4-brio-posto4.json",
         "5": "skin/palette/5-tiny-posto4.json",
         "7": "skin/palette/7-dingodile-posto4.json"
       }
@@ -609,6 +625,20 @@
           "811": "f6993c73666611f220e040de0c00c23c76b5177252946f4ee70981c2322b1bf9",
           "889": "e4f82a490f01b6ed09c2be7c57ce4e815b828d0f6654a4ffdabd797082c0dc85"
         },
+        "4": {
+          "903": "dc1b4a62cf59b0e8a4de79391ed1f68762e242d1dc1232d160c464b71b95bbaa",
+          "983": "d4f1a356c4d3de9206ca48d70efe1cb4fad363592c72ea3169b2826885a61ed7",
+          "931": "bf4d2250b17586c6db6566d03aa3a0191dc9eb97008b703906f7571997e29549",
+          "835": "a2f0c3eb113f06edea6a6a2a81e0fbf1c9350cf712752fab3a5ca46fb54bb73e",
+          "869": "1456ac41b4690980cf30253e3787f9080a5b1a63fa16e56fe12a506a94ba0c60",
+          "855": "226100cd466fe2d82f8d63cbb319d69cf9e1cabd820127b3ca5297a936719d22",
+          "967": "2aa7b4dbdcf39ad3e4fd84005c608a728021d165fcee3389f8bfc0b1fc9af5e9",
+          "915": "a44ce6c91deb984f1472ba47f3bbdc44c50bb86269a75d93f562c60cecf37efa",
+          "947": "f91e89fc6506cb0bedf09db6152c8359a8e32c546277c733a496e48dbbc4dc85",
+          "821": "adf1a5863b658d9b160c1ab8d1edcbd67e26c6e350501478899e2ef3f1f89543",
+          "799": "ae87dd050e833bf69dead0f87c37e5863e86bac87efc4a49cfd15609b6b9e4e1",
+          "885": "3259ce9b73f3e050c375c220e228ba44e26a201e5909cae791c38f8266408ce3"
+        },
         "5": {
           "897": "4a2a44196c276c8ca538c5ead56cb30ff01901768ceb5d6db9c04453b50bd7ea",
           "981": "677ba2d58ad7afa9d308a7378d63a9f3ff6af017a266aebcbb0a907838cd6029",
@@ -642,6 +672,7 @@
         "1": "skin/palette/1-crash-posto5.json",
         "2": "skin/palette/2-coco-posto5.json",
         "3": "skin/palette/3-cortex-posto5.json",
+        "4": "skin/palette/4-brio-posto5.json",
         "5": "skin/palette/5-tiny-posto5.json",
         "7": "skin/palette/7-dingodile-posto5.json"
       }
