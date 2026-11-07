@@ -1,0 +1,119 @@
+{
+  "personaggio": "6",
+  "posto": 4,
+  "nome": "boscaiolo",
+  "gruppi": [
+    {
+      "nome": "bocca",
+      "tinta": [
+        358,
+        3
+      ],
+      "saturazione": [
+        0.5,
+        0.97
+      ],
+      "valore": [
+        0.1,
+        0.6
+      ],
+      "colore": "#561111"
+    },
+    {
+      "nome": "bocca2",
+      "tinta": [
+        358,
+        3
+      ],
+      "saturazione": [
+        0.97,
+        1
+      ],
+      "valore": [
+        0.4,
+        0.46
+      ],
+      "colore": "#6b0000"
+    },
+    {
+      "nome": "orecchie",
+      "tinta": [
+        300,
+        345
+      ],
+      "saturazione": [
+        0.2,
+        0.5
+      ],
+      "valore": [
+        0.58,
+        1
+      ],
+      "colore": "#c09070"
+    },
+    {
+      "nome": "bordo",
+      "tinta": [
+        300,
+        345
+      ],
+      "saturazione": [
+        0.25,
+        0.47
+      ],
+      "valore": [
+        0.45,
+        0.56
+      ],
+      "colore": "#9d3525"
+    },
+    {
+      "nome": "maglia",
+      "tinta": [
+        340,
+        10
+      ],
+      "saturazione": [
+        0.47,
+        1
+      ],
+      "valore": [
+        0.15,
+        0.75
+      ],
+      "colore": "#c01818"
+    },
+    {
+      "nome": "pelo",
+      "tinta": [
+        200,
+        300
+      ],
+      "saturazione": [
+        0,
+        0.3
+      ],
+      "valore": [
+        0.15,
+        0.7
+      ],
+      "colore": "#7a5232"
+    },
+    {
+      "nome": "gambe",
+      "tinta": [
+        10,
+        50
+      ],
+      "saturazione": [
+        0.6,
+        1
+      ],
+      "valore": [
+        0.25,
+        1
+      ],
+      "colore": "#2e4a8a"
+    }
+  ]
+}
