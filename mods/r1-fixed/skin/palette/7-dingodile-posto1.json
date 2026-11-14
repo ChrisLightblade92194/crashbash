@@ -14,10 +14,11 @@
         1
       ],
       "valore": [
-        0.2,
-        0.75
+        0.15,
+        1
       ],
-      "colore": "#f0f0f0"
+      "colore": "#f0f0f0",
+      "anche_texture": true
     },
     {
       "nome": "squame",
