@@ -51,6 +51,23 @@
       ],
       "colore": "#9cb4cc",
       "anche_texture": true
+    },
+    {
+      "nome": "coda",
+      "tinta": [
+        20,
+        45
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "valore": [
+        0.15,
+        1
+      ],
+      "anche_texture": true,
+      "colore": "#9cb4cc"
     }
   ]
 }
