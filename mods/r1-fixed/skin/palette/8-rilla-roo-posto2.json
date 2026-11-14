@@ -38,18 +38,19 @@
     {
       "nome": "pelo-scuro",
       "tinta": [
-        350,
-        15
+        345,
+        20
       ],
       "saturazione": [
         0.3,
-        0.7
+        0.9
       ],
       "valore": [
-        0.3,
-        0.65
+        0.12,
+        0.8
       ],
-      "colore": "#3a2a6a"
+      "colore": "#3a2a6a",
+      "anche_texture": true
     },
     {
       "nome": "oro",

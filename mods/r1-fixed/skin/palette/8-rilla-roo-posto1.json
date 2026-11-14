@@ -38,18 +38,19 @@
     {
       "nome": "pelo-scuro",
       "tinta": [
-        350,
-        15
+        345,
+        20
       ],
       "saturazione": [
         0.3,
-        0.7
+        0.9
       ],
       "valore": [
-        0.3,
-        0.65
+        0.12,
+        0.8
       ],
-      "colore": "#9cb4cc"
+      "colore": "#9cb4cc",
+      "anche_texture": true
     }
   ]
 }

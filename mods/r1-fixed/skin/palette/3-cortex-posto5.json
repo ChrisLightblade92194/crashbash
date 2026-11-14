@@ -4,6 +4,23 @@
   "nome": "vampiro",
   "gruppi": [
     {
+      "nome": "ombre-cappello",
+      "tinta": [
+        15,
+        36
+      ],
+      "saturazione": [
+        0.8,
+        1
+      ],
+      "valore": [
+        0.1,
+        0.3
+      ],
+      "anche_texture": true,
+      "colore": "#27262a"
+    },
+    {
       "nome": "N",
       "tinta": [
         18,
