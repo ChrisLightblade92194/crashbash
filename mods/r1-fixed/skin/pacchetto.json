@@ -102,21 +102,21 @@
   "varianti": [
     {
       "posto": 1,
-      "cartella": "skin/r1/v3c-posto1",
+      "cartella": "skin/r1/l25-posto1",
       "personaggi": {
         "1": {
-          "813": "ae341d13d67b1a61f545602e49c428b0057af211c085343fe8e9924285de760c",
-          "829": "368e120c338104a49a9db070bc602bb60da39e918ef3cc79cf55f33e3467f948",
-          "845": "1fd023505022acd6e9d3fbc10820a7da5d985e6dbcadc458e75b96a3d489b7ea",
-          "861": "8236d14ed091b2c2004324d6270877b45bf54eabe15cf65310e5035d48573309",
-          "877": "75e63afd6a0664eababe94ae59515efc0f96123221551bb9c74c5eb8e182fa49",
-          "893": "79effdd9e51c670bad298ce87e06518949a0e09410139332d27fa3d397c4ae68",
-          "909": "44739dd225ec83c8a1b0247fca0eaceb36b579104b68fb441109d0fe7f80d3c0",
-          "925": "5dfb430d9bae7eeaa1771873587fb13209c27f01381e1882bf90fd7e1b68959f",
-          "941": "8e19522373101dd4649b30b3518782946def2537b77c779d55cde15e6617ba6a",
-          "957": "cb94923d980fb6c25129e1bf3620ba16b1f5549461e277435491ed5aecd8f263",
-          "973": "93741d4d6857ab57e26fa10007964d7e817a6c24e8d51d2864ce62a94a0d853f",
-          "989": "5c982e4ccd7cd22a2a63b39655b7610aece6ba17ced0437217abdd0178b57d79"
+          "813": "51f20aefed063c4a8403aa8764bef559d607ce3ba3f0f70fdbb7cb3085376b2b",
+          "829": "88f5234d9d6a7cdffb22bd927cf3355b48d63cbc1a8cd514911c9cbfe605d429",
+          "845": "c82e2aad1af4dd30ee8f638a2bf309fffb5e812e8466630da19a453cea0992ba",
+          "861": "dac815534bc3fa3bcb7e2c78b0b7d8b2da466e3b9f89f24879b7b54fe37eeeb9",
+          "877": "a6c34215389a9fd1f400e8554f39b9631a6ec0b3c3487c86c82f08235867a6f1",
+          "893": "688c5875576bd716b8390b880ac7d848d9d76f3b63e9d988b2c83be6a9399f79",
+          "909": "b514ab8d230b9e64536d8da74910264cc470842cb02616dabb75a4baa5c117bd",
+          "925": "e076f86e2eb2bd46b5c569e2adf466bee82b49f9d684f5bd604f904cc2bec718",
+          "941": "d8cbac52fcb2335218f620e4b0f7c3a7d5f30c26f6c221cc2b9e2e94af46367d",
+          "957": "e6aeffffc487f74549b1d0b0684fdd150f3bb44ee9b24b2349b1653ccff67b02",
+          "973": "96b7f4802b6f4205b0a30f0213c9e648f2629614d89d7034020b90f24b387118",
+          "989": "d4d3cbabea32b1b42fcd90a79890cd59d4feb54644f2a0ede7457f75df8119ee"
         },
         "2": {
           "803": "612f25f382194de680b56385f1ccf199bda423195d388f2b980a9b372932ada4",
@@ -218,6 +218,7 @@
         }
       },
       "vertici": {
+        "1": "skin/palette/1-crash-posto1.json",
         "2": "skin/palette/2-coco-posto1.json",
         "3": "skin/palette/3-cortex-posto1.json",
         "4": "skin/palette/4-brio-posto1.json",
