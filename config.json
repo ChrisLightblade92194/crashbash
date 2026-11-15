@@ -14,7 +14,10 @@
                 "name": "bash.bin",
                 "symbols": [
                     "functions.txt",
-                    "variables.txt"
+                    "variables.txt",
+                    "r17_core.txt",
+                    "r17_pagine.txt",
+                    "r17_menu.txt"
                 ],
                 "build_id": 1
             }
