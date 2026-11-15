@@ -1,0 +1,8 @@
+// Mutazione di controllo di R17 (lotto 4): gemello di decomp-r17-coda con una sola modifica nel C (bit 0x20 in più nel comando texpage scritto da FUN_80017d90; la prima scelta, arena +1 in FUN_800129d0, mandava il gioco in eccezione).
+// Scenario r17-coda-mutazione: run atteso 1.
+ntsc_u, exe_decomp, 0x800129d0, 0x0, ../../decomp/core/hooks/hookFUN_800129d0.s
+ntsc_u, exe_decomp, 0x80012840, 0x0, ../../decomp/core/hooks/hookFUN_80012840.s
+ntsc_u, exe_decomp, 0x80027790, 0x0, ../../decomp/core/hooks/hookFUN_80027790.s
+ntsc_u, exe_decomp, 0x80027944, 0x0, ../../decomp/core/hooks/hookFUN_80027944.s
+ntsc_u, exe_decomp, 0x80017d90, 0x0, ../../decomp/core/hooks/hookFUN_80017d90.s
+ntsc_u, exe_decomp, 0x80200000, 0x0, ../../decomp/core/coda.c src/mesh_mutato.c

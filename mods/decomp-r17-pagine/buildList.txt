@@ -1,0 +1,5 @@
+// Mod di prova R17-3b: gestore delle pagine istruzioni e NextPage del motore (voce 991).
+// Scenario r17-pagine: Character Select Battle, Crate Crush e croce sulle tre pagine; run atteso 0.
+ntsc_u, engine_decomp, 0x8007f314, 0x0, ../../decomp/engine/hooks/hookFUN_8007f314.s
+ntsc_u, engine_decomp, 0x800832bc, 0x0, ../../decomp/engine/hooks/hookNextPage.s
+ntsc_u, engine_decomp, 0x80400000, 0x0, ../../decomp/engine/pagine.c

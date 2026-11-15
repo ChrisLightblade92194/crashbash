@@ -1,0 +1,4 @@
+// R17-3a: C equivalente dell'azione 13; modulo 728 gia' in RAM prima di scrivere il mod.
+// Scenario previsto: r17-colpo; run atteso 0.
+ntsc_u, crate_decomp, 0x800bfd2c, 0x0, ../../decomp/crate/hooks/hookFUN_800bfd2c.s
+ntsc_u, crate_decomp, 0x80600000, 0x0, ../../decomp/crate/colpo.c

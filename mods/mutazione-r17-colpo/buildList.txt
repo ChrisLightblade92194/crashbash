@@ -1,0 +1,4 @@
+// Mutazione di controllo di R17 (lotto 4): gemello di decomp-r17-colpo con una sola modifica nel C (timer +0x48 a 31 invece di 30 in FUN_800bfd2c).
+// Scenario r17-colpo-mutazione: run atteso 1.
+ntsc_u, crate_decomp, 0x800bfd2c, 0x0, ../../decomp/crate/hooks/hookFUN_800bfd2c.s
+ntsc_u, crate_decomp, 0x80600000, 0x0, src/colpo_mutato.c

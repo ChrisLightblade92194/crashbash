@@ -11,6 +11,12 @@ ntsc_u, exe_decomp, 0x8001e854, 0x0, core/hooks/hookScreen_Exit.s
 ntsc_u, exe_decomp, 0x8001e8f0, 0x0, core/hooks/hookScreen_CallInit.s
 ntsc_u, exe_decomp, 0x800235bc, 0x0, core/hooks/hookLevel_SetMetrics.s
 ntsc_u, exe_decomp, 0x80022140, 0x0, core/hooks/hookLevel_QueueBanks.s
+ntsc_u, exe_decomp, 0x800129d0, 0x0, core/hooks/hookFUN_800129d0.s
+ntsc_u, exe_decomp, 0x80012840, 0x0, core/hooks/hookFUN_80012840.s
+ntsc_u, exe_decomp, 0x80027790, 0x0, core/hooks/hookFUN_80027790.s
+ntsc_u, exe_decomp, 0x80027944, 0x0, core/hooks/hookFUN_80027944.s
+ntsc_u, exe_decomp, 0x80022660, 0x0, core/hooks/hookFUN_80022660.s
+ntsc_u, exe_decomp, 0x80017d90, 0x0, core/hooks/hookFUN_80017d90.s
 
 ntsc_u, engine_decomp, 0x80092af4, 0x0, engine/hooks/hookScreen_Request.s
 ntsc_u, engine_decomp, 0x80092b7c, 0x0, engine/hooks/hookEngine_Draw.s
@@ -27,15 +33,30 @@ ntsc_u, engine_decomp, 0x800936c4, 0x0, engine/hooks/hookLoader_Init.s
 ntsc_u, engine_decomp, 0x80093be8, 0x0, engine/hooks/hookLoader_Update.s
 ntsc_u, engine_decomp, 0x8009407c, 0x0, engine/hooks/hookLoader_Draw.s
 ntsc_u, engine_decomp, 0x80094058, 0x0, engine/hooks/hookLoader_Exit.s
+ntsc_u, engine_decomp, 0x8007f314, 0x0, engine/hooks/hookFUN_8007f314.s
+ntsc_u, engine_decomp, 0x800832bc, 0x0, engine/hooks/hookNextPage.s
 
 ntsc_u, ball_decomp, 0x8009d708, 0x0, ball/hooks/hookPlayer_onSpeed.s
 ntsc_u, ball_decomp, 0x8009d720, 0x0, ball/hooks/hookBot_onUpdate.s
 ntsc_u, ball_decomp, 0x8009d750, 0x0, ball/hooks/hookPlayer_onCollide.s
 ntsc_u, ball_decomp, 0x800c1c8c, 0x0, ball/hooks/hookBall_onCollide_World.s
 
+// R17: menu (voce 722) e Crate Crush (voce 728): hook nel codice dei moduli, solo hot reload con il modulo in memoria.
+ntsc_u, menu_decomp, 0x800b3f7c, 0x0, menu/hooks/hookFUN_800b3f7c.s
+ntsc_u, menu_decomp, 0x800b5ca8, 0x0, menu/hooks/hookFUN_800b5ca8.s
+ntsc_u, menu_decomp, 0x800b63f4, 0x0, menu/hooks/hookFUN_800b63f4.s
+ntsc_u, menu_decomp, 0x800b5b10, 0x0, menu/hooks/hookFUN_800b5b10.s
+ntsc_u, menu_decomp, 0x800b4848, 0x0, menu/hooks/hookFUN_800b4848.s
+ntsc_u, menu_decomp, 0x800b6e0c, 0x0, menu/hooks/hookFUN_800b6e0c.s
+ntsc_u, menu_decomp, 0x800b7458, 0x0, menu/hooks/hookFUN_800b7458.s
+ntsc_u, menu_decomp, 0x800b6c04, 0x0, menu/hooks/hookFUN_800b6c04.s
+ntsc_u, crate_decomp, 0x800bfd2c, 0x0, crate/hooks/hookFUN_800bfd2c.s
+
 ntsc_u, exe_decomp, 0x80200000, 0x0, core/*.c core/kernel.s
 ntsc_u, ball_decomp, 0x80300000, 0x0, ball/*.c
 ntsc_u, engine_decomp, 0x80400000, 0x0, engine/*.c
+ntsc_u, menu_decomp, 0x80500000, 0x0, menu/*.c
+ntsc_u, crate_decomp, 0x80600000, 0x0, crate/*.c
 
 //ntsc_u, research_decomp, 0x80019da4, 0x0, research/hooks/hookDebugPrim.s
 //ntsc_u, research_decomp, 0x80019da4, 0x0, research/hooks/hookFaceGen.s

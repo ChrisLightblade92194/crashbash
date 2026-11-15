@@ -1,0 +1,5 @@
+// Mutazione di controllo di R17 (lotto 4): gemello di decomp-r17-pagine con una sola modifica nel C (NextPage avanza di due pagine invece di una).
+// Scenario r17-pagine-mutazione: run atteso 1.
+ntsc_u, engine_decomp, 0x8007f314, 0x0, ../../decomp/engine/hooks/hookFUN_8007f314.s
+ntsc_u, engine_decomp, 0x800832bc, 0x0, ../../decomp/engine/hooks/hookNextPage.s
+ntsc_u, engine_decomp, 0x80400000, 0x0, src/pagine_mutato.c

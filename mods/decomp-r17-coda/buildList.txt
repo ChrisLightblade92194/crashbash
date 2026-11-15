@@ -1,0 +1,9 @@
+// R17-3a: C equivalente della coda dei modelli e della lettura CD (EXE).
+// Scenario previsto: r17-caricamento; run atteso 0.
+ntsc_u, exe_decomp, 0x800129d0, 0x0, ../../decomp/core/hooks/hookFUN_800129d0.s
+ntsc_u, exe_decomp, 0x80012840, 0x0, ../../decomp/core/hooks/hookFUN_80012840.s
+ntsc_u, exe_decomp, 0x80027790, 0x0, ../../decomp/core/hooks/hookFUN_80027790.s
+ntsc_u, exe_decomp, 0x80027944, 0x0, ../../decomp/core/hooks/hookFUN_80027944.s
+// R17: anche il C di FUN_80017d90 (preparazione dei colori di una mesh, EXE), chiamata 138 volte nello scenario.
+ntsc_u, exe_decomp, 0x80017d90, 0x0, ../../decomp/core/hooks/hookFUN_80017d90.s
+ntsc_u, exe_decomp, 0x80200000, 0x0, ../../decomp/core/coda.c ../../decomp/core/mesh.c

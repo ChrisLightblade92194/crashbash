@@ -1,0 +1,14 @@
+// C equivalente di otto funzioni del menu Battle; hook del modulo 722, da caricare quando il modulo e in RAM.
+// Scenario r17-menu: Battle, un giocatore, Character Select e CHOOSE LEVEL; run atteso 0. Con il C del suono
+// dell'EXE (FUN_80022660, core/suono.c), che il menu chiama a ogni conferma e spostamento.
+ntsc_u, menu_decomp, 0x800b3f7c, 0x0, ../../decomp/menu/hooks/hookFUN_800b3f7c.s
+ntsc_u, menu_decomp, 0x800b5ca8, 0x0, ../../decomp/menu/hooks/hookFUN_800b5ca8.s
+ntsc_u, menu_decomp, 0x800b63f4, 0x0, ../../decomp/menu/hooks/hookFUN_800b63f4.s
+ntsc_u, menu_decomp, 0x800b5b10, 0x0, ../../decomp/menu/hooks/hookFUN_800b5b10.s
+ntsc_u, menu_decomp, 0x800b4848, 0x0, ../../decomp/menu/hooks/hookFUN_800b4848.s
+ntsc_u, menu_decomp, 0x800b6e0c, 0x0, ../../decomp/menu/hooks/hookFUN_800b6e0c.s
+ntsc_u, menu_decomp, 0x800b7458, 0x0, ../../decomp/menu/hooks/hookFUN_800b7458.s
+ntsc_u, menu_decomp, 0x800b6c04, 0x0, ../../decomp/menu/hooks/hookFUN_800b6c04.s
+ntsc_u, menu_decomp, 0x80500000, 0x0, ../../decomp/menu/numero.c ../../decomp/menu/personaggi.c ../../decomp/menu/livello.c
+ntsc_u, exe_decomp, 0x80022660, 0x0, ../../decomp/core/hooks/hookFUN_80022660.s
+ntsc_u, exe_decomp, 0x80200000, 0x0, ../../decomp/core/suono.c
