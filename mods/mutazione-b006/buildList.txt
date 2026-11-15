@@ -1,0 +1,4 @@
+// Mutazione di controllo di B-006 (M3-L26): stessi byte di r1-fixed/b006, ma con un nop al posto dello store della soglia.
+// Con i byte della correzione esclusi dallo scenario, run deve uscire con 0.
+ntsc_u, ovl728, 0x800bfd84, 0x0, soglia.s
+ntsc_u, ovl728, 0x800bfdf8, 0x0, mutazione.s

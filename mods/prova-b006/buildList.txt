@@ -1,0 +1,4 @@
+// Prova di B-006 (M3-L26) da savestate a partita avviata: la sola correzione nel modulo 728 (Crate Crush),
+// già in RAM nel savestate. r1-fixed non si può usare su quel savestate: scrive anche le sezioni di ovl722 e ball.
+ntsc_u, ovl728, 0x800bfd84, 0x0, soglia.s
+ntsc_u, ovl728, 0x800bfdf8, 0x0, correzione.s

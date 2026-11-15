@@ -73,3 +73,6 @@ ntsc_u, exe, 0x80039b48, 0x0, casuale/casuale.s
 ntsc_u, exe, 0x80039c04, 0x0, casuale/genera.s
 ntsc_u, exe, 0x80039eb0, 0x0, casuale/scrivi.s
 ntsc_u, ovl722, 0x800b425c, 0x0, casuale/hookCroce.s
+// M3-L26 B-006: il colpo subito in Crate Crush (0x800bfd2c, modulo 728) alza a 0x200 la soglia del danno u16[M+0x46] quando vale 0, come una cassa (modo 2: la soglia letta al posto di un load ridondante, il resto al posto di un ricalcolo ridondante; nessun byte delle sedi).
+ntsc_u, ovl728, 0x800bfd84, 0x0, b006/soglia.s
+ntsc_u, ovl728, 0x800bfdf8, 0x0, b006/correzione.s
