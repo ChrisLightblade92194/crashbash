@@ -68,11 +68,16 @@ ntsc_u, ovl722, 0x800b74dc, 0x0, sblocco/hookTasti.s
 ntsc_u, ovl722, 0x800b7028, 0x0, sblocco/controlloCroce.s
 ntsc_u, ovl722, 0x800b70f8, 0x0, sblocco/controlloScritta.s
 ntsc_u, ovl722, 0x800b7638, 0x0, sblocco/controlloIcone.s
-// M3-L24: SELECT tenuto più la croce su SELECT NUMBER OF PLAYERS (Battle) avvia una partita casuale. Codice nell'EXE, tre blocchi della libreria libmcrd mai chiamati (coda di MemCardOpen dopo L23, MemCardClose + MemCardReadData, MemCardWriteData); aggancio nel modulo 722 alla chiamata della schermata seguente (0x800b425c).
-ntsc_u, exe, 0x80039b48, 0x0, casuale/casuale.s
+// M3-L24: partita casuale. Codice nell'EXE, tre blocchi della libreria libmcrd mai chiamati (coda di MemCardOpen dopo L23 e dopo boss/gesti.s, MemCardClose + MemCardReadData, MemCardWriteData). Dal 2026-11-15 (M3-L28) il gesto è SELECT tenuto più START, smistato da boss/gesti.s; l'aggancio alla croce (0x800b425c) non c'è più.
+ntsc_u, exe, 0x80039b9c, 0x0, casuale/casuale.s
 ntsc_u, exe, 0x80039c04, 0x0, casuale/genera.s
 ntsc_u, exe, 0x80039eb0, 0x0, casuale/scrivi.s
-ntsc_u, ovl722, 0x800b425c, 0x0, casuale/hookCroce.s
+// M3-L28: boss da SELECT NUMBER OF PLAYERS (Battle, 1 o 2 umani evidenziati): SELECT tenuto più croce Papu Pummel, cerchio Big Bad Fox, quadrato Bearminator, triangolo Oxide; SELECT tenuto più START la partita casuale. Smistamento nella coda di MemCardOpen (0x80039b48, 84 byte), avvio del boss in MatrixNormal dopo l'opzione R10 (0x8003d9e0, 148 byte), suono e uscita nella coda del blocco di L9 (0x80031614, 72 byte); aggancio nel modulo 722 al load dei tasti premuti (0x800b422c). Oxide in Battle torna a CHOOSE LEVEL: ramo dei livelli 31 e 32 di GameScreen_NextLevel riscritto sul posto (0x8008ee18, voce 991).
+ntsc_u, exe, 0x80039b48, 0x0, boss/gesti.s
+ntsc_u, exe, 0x8003d9e0, 0x0, boss/avvio.s
+ntsc_u, exe, 0x80031614, 0x0, boss/suono.s
+ntsc_u, ovl722, 0x800b422c, 0x0, boss/hookGesti.s
+ntsc_u, engine, 0x8008ee18, 0x0, boss/oxide.s
 // M3-L26 B-006: il colpo subito in Crate Crush (0x800bfd2c, modulo 728) alza a 0x200 la soglia del danno u16[M+0x46] quando vale 0, come una cassa (modo 2: la soglia letta al posto di un load ridondante, il resto al posto di un ricalcolo ridondante; nessun byte delle sedi).
 ntsc_u, ovl728, 0x800bfd84, 0x0, b006/soglia.s
 ntsc_u, ovl728, 0x800bfdf8, 0x0, b006/correzione.s

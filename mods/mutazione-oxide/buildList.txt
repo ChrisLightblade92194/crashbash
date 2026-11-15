@@ -1,0 +1,2 @@
+// Con i byte della correzione esclusi dallo scenario, run deve uscire con 0.
+ntsc_u, engine, 0x8008ee18, 0x0, mutazione.s

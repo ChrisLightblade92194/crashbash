@@ -1,5 +1,5 @@
 # M3-L24: scelta casuale del minigioco e dell'arena. Sede: EXE, MemCardClose + MemCardReadData (0x80039c04-0x80039ce4,
-# 224 byte, mai chiamate). Arriva da casuale_croce (casuale.s) con t9 = ra del chiamante.
+# 224 byte, mai chiamate). Arriva da gesti_tasti (boss/gesti.s) con t9 = gesti_suono (boss/suono.s, M3-L28).
 # Tabella delle arene di CHOOSE LEVEL 0x800ba324 (modulo 722): 7 famiglie (puntatore, numero = 4), arene da 16 byte
 # (tipo, livello, modello, valore). Sbloccata, come il predicato di CHOOSE LEVEL con L23 (0x800b7c68 e i tre controlli
 # in linea): sblocco_sessione, oppure il bit 0x2000 di 0x8005a618, oppure tipo 1, oppure tipo 2 con

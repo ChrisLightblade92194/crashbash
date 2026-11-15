@@ -4,7 +4,7 @@
 .set noat
 
 # Arriva da casuale_personaggi (casuale.s) con t0 = 0x80060000, t5 = personaggi, t6 = famiglia, t7 = arena,
-# t9 = ra del chiamante. Scrive quello che scriverebbero Character Select, CHOOSE LEVEL e GAME OPTIONS; tipo di
+# t9 = gesti_suono (M3-L28; prima ra del chiamante). Scrive quello che scriverebbero Character Select, CHOOSE LEVEL e GAME OPTIONS; tipo di
 # battaglia, squadre, difficoltà e coppe restano come li ha lasciati il menu (tutti contro tutti nel percorso Battle).
 .global casuale_scrivi
 casuale_scrivi:
