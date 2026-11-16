@@ -104,5 +104,38 @@
                 }
             ]
         }
+    ],
+    "pal": [
+        {
+            "SCES_028.34": [
+                {
+                    "name": "exe",
+                    "address": "0x80010000",
+                    "offset": "0x800"
+                }
+            ],
+            "CRASHBSH/CRASHBSH.DAT": [
+                {
+                    "name": "engine",
+                    "address": "0x8007a498",
+                    "offset": "0x068da800"
+                },
+                {
+                    "name": "ovl1083",
+                    "address": "0x800b29b8",
+                    "offset": "0x05a06000"
+                },
+                {
+                    "name": "ball",
+                    "address": "0x800b29b8",
+                    "offset": "0x05a27000"
+                },
+                {
+                    "name": "ovl1089",
+                    "address": "0x800b29b8",
+                    "offset": "0x05a6b000"
+                }
+            ]
+        }
     ]
 }

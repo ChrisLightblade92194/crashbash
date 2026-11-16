@@ -1,0 +1,4 @@
+// PAL-P0: build senza modifiche reali. Riscrive un nop sopra il nop originale
+// (delay slot dopo jr ra a 0x800114a8 in SCES_028.34), così compilazione e
+// ricostruzione dell'ISO girano davvero e l'ISO deve restare identica all'originale.
+pal, exe, 0x800114a8, 0x0, nop.s

@@ -21,6 +21,15 @@
                 ],
                 "build_id": 1
             }
+        },
+        {
+            "pal": {
+                "name": "bash_pal.bin",
+                "symbols": [
+                    "pal_verificati.txt"
+                ],
+                "build_id": 2
+            }
         }
     ]
 }
