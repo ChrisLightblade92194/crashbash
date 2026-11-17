@@ -1,0 +1,90 @@
+{
+  "personaggio": "7",
+  "posto": 1,
+  "nome": "panda",
+  "gruppi": [
+    {
+      "nome": "cinghia-scura",
+      "tinta": [
+        16,
+        17.5
+      ],
+      "saturazione": [
+        0.5,
+        0.65
+      ],
+      "valore": [
+        0.18,
+        0.26
+      ],
+      "anche_texture": true,
+      "riferimento_texture": true,
+      "colore": "#0a0a0a"
+    },
+    {
+      "nome": "cinghia-chiara",
+      "tinta": [
+        20,
+        24
+      ],
+      "saturazione": [
+        0.18,
+        0.26
+      ],
+      "valore": [
+        0.42,
+        0.48
+      ],
+      "anche_texture": true,
+      "riferimento_texture": true,
+      "colore": "#1a1a1a"
+    },
+    {
+      "nome": "cinghia-media",
+      "tinta": [
+        18,
+        20.5
+      ],
+      "saturazione": [
+        0.35,
+        0.41
+      ],
+      "valore": [
+        0.24,
+        0.28
+      ],
+      "anche_texture": true,
+      "riferimento_texture": true,
+      "colore": "#121212"
+    },
+    {
+      "nome": "pelo",
+      "tinta": [
+        10,
+        30
+      ],
+      "saturazione": [
+        0.7,
+        1
+      ],
+      "valore": [
+        0.15,
+        1
+      ],
+      "colore": "#f0f0f0",
+      "anche_texture": true
+    },
+    {
+      "nome": "squame",
+      "tinta": [
+        80,
+        140
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "colore": "#202020"
+    }
+  ]
+}

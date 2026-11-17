@@ -1,48 +1,54 @@
-# Skin PAL - codice P2c1 e pacchetto di prova
+# Skin PAL — pacchetto vero P3a
 
-Le 25 voci 10-23 e 36-46 sono attive nella buildList, con provenienza
-`418a3f8561774df5de192848cefb12ee736d50b0`. Le sedi restano quelle assegnate
-in `docs/evidence/pal-r1/p2b1/sedi-r1.json`. La compilazione e le prove del
-codice modificato spettano alla regia: gli hash nel manifesto sono attesi
-dalle codifiche MIPS, non misurati su nuovi compilati.
+Il tipo `skin_pal_da_delta_usa` sostituisce la fixture neutra. Il builder legge
+le skin esterne USA R1 dei cinque posti e gli originali regionali autenticati.
+Per ogni byte cambiato dalla skin rispetto all'originale USA, applica il byte
+della skin alla base PAL. Il delta deve rientrare in CLUT e pixel PAL; sulle
+intersezioni con le differenze regionali prevale la skin. Gli altri byte PAL
+restano originali. Le 93 TEX identiche producono la skin USA esatta.
 
-Gli include PAL sono completi. `podio-pal.inc` contiene le otto voci crate,
-gli scostamenti nel blocco e 67 coppie di immagini misurate sui TEX PAL.
-`mesh-pal.inc` contiene otto scostamenti riconosciuti per geometria, facce,
-UV e colori del MDL PAL133. Le prove sono in `p2c1/dati-pal.json`.
+`pacchetto.json` contiene le impronte degli originali e delle 480 skin PAL,
+quelle delle skin USA di ingresso e gli offset USA misurati. `mappa.json`
+associa personaggi e famiglie attraverso i record dei due motori, senza un
+delta globale. I 40 JSON in `palette/` sono copie esatte delle regole R1 USA:
+sono sorgenti, non texture. Il DAT USA richiesto è quello originale dichiarato
+nel descrittore, non un'uscita in `game/build/`. Il percorso assoluto è quello
+concordato per questa installazione; una diversa installazione deve aggiornare
+la fonte mantenendo le impronte, senza sostituirla con un DAT di build.
 
-`pacchetto.json` richiede al builder una fixture neutra: cinque copie dei
-96 TEX originali PAL, in ordine di voce e arrotondati al settore. Un blocco
-occupa 289 settori. Seguono 48 record del podio con conteggio zero; la fixture
-non altera colori di vertici e presuppone il podio originale. `K=0` in tutte
-le famiglie. Non si mescolano questa fixture e asset personalizzati.
+Le tabelle dei vertici vengono ricalcolate dai MDL PAL con l'algoritmo USA.
+I 48 record del podio sono ricalcolati sul PAL133 e sul PAL132. Il builder genera
+gli include `varianti-pal.inc`, `vertici-pal.inc`, `podio-pal.inc`, `mesh-pal.inc`
+e `celle-pal.inc`. `celle-patch.json` autentica le dodici patch, generate soltanto
+durante la build in `output/`. `../disc-podio.json` e `../build_podio.py` aggiungono
+le sezioni dati PAL132/133 in memoria nel processo figlio del mod-builder:
+`game/disc.json` e la toolchain non vengono modificati. Le righe sono `noreload`;
+gli indirizzi convenzionali delle sezioni dati non sono sedi RAM eseguibili.
 
-La sede è BASHY., LBA 78678, settore 78439 relativo al DAT. I record del podio
-cominciano al settore 79884 relativo al DAT. Nessun record è aggiunto alla
-tabella originale: 1349 è l'identificatore virtuale nei manifesti e nelle
-sonde. Il builder costruisce SKIN.BIN solo durante la build, dagli originali
-dell'utente; nessun asset è versionato. La prova dinamica del DAT resta P3.
+Misure sugli originali: blocco TEX 289 settori, cinque blocchi, 710 settori di
+tabelle, 48 record da un settore. Totale 4511744 byte. `SKIN_VERTICI=79884`,
+`SKIN_PODIO_VERTICI=80594`, relativi al DAT. Sede BASHY.: LBA78678, settore78439
+dal DAT, 31752000 byte disponibili. SHA-256 atteso del pacchetto:
+`b8be04e1cbfa39a769f590282747d0e790e5cf83ad7babbb322320ed23f7943d`.
+Questa è una misura della concatenazione in memoria, non di una build eseguita.
+Gli asset e SKIN.BIN restano esterni/ignorati da Git. Il tipo vero supera la
+guardia della release; `fixture_pal_originali` rimane disponibile soltanto per
+prove locali e test ed è rifiutato da `ErroreRelease`.
 
-`celle-pal.inc` riserva 48 record a zero e nove indici di inizio a zero:
-nessuna cella viene aggiornata. è un segnaposto valido finché P3 non porta
-le patch 24-35 per separare le celle condivise del podio. Il codice delle
-voci 37-40 rimane attivo e può essere verificato con contratti sintetici
-dichiarati; tali prove non certificano le celle finali di P3.
+Prove complete: `docs/evidence/pal-r1/p3a/`. In particolare, le UV PAL di Rilla
+Roo/kegs cambiano la cella letta su 60 facce; Kong/kegs cambia due facce.
+Il confronto delle tabelle dei colori passa anche per questi MDL, ma non prova
+equivalenza visiva. La regia deve giudicare le schermate previste dal piano.
+I metadati MDL non decodificati hanno sede e differenze classificate; il loro
+significato runtime resta incerto.
 
-La ricognizione della regia autorizza il buffer `0x800a4800..0x800a6000`
-solo alla Character Select, con azzeramento dopo ogni lettura: il motore lo
-usa dal frame 6750. Il buffer `0x800a8000..0x800a8800` resta zero nei campioni
-6010-9000. CLUT 113-117: x=960, y=401-(k-113). Prova e limiti in
-`p2c1/ricognizione.json`: una corsa inglese, 1P, primo ingresso, campioni ogni
-10 frame; rientro, 2P e altre lingue non coperti. Il layout delle 67 immagini
-usate è corroborato da RAM/VRAM in `p2c1/strutture-runtime.json`.
+`buffer-pal.inc` è l'unica definizione assembly di `BUFFER`. Il valore attuale
+è provvisorio e il rientro resta sotto osservazione della regia. Se cambia,
+rigenerare i compilati 11/15/40, codifiche e impronte del manifesto, audit dei
+limiti e riferimenti della sonda; ripetere le relative baseline e mutazioni.
+Ricontrollare capienza e durata di vita della nuova sede. La geometria del
+pacchetto non dipende dall'indirizzo del buffer. Le coordinate CLUT113-117
+restano x960, y401-(k-113), misurate in P2c1/ricognizione.json.
 
-Le voci 10, 17, 20 hanno un ingresso isolato di 8 byte per le mutazioni del banco.
-Il percorso corretto non lo chiama; il JAL alterato può così eseguire il
-comportamento originale senza corrompere lo stack. Le estensioni non hanno
-riferimenti diretti trovati in EXE/DAT (`p2c1/sedi-estensioni.json`).
-
-Nessuna voce legge o disegna testo. Il -1 della voce 18 compensa un incremento
-del ramo originale; non è una durata da convertire da 60 a 50 Hz. I contatori
-3/4 riguardano tentativi CD. Fonte completa degli indirizzi, contratti dei
-registri e delay slot: `p2c1/innesti.json`, `funzioni.json` e `port.json`.
+Build, pytest, prove DAT, callback, celle, rientro e giudizio visivo devono
+essere eseguiti dalla regia. Gli invariati statici non certificano il runtime.

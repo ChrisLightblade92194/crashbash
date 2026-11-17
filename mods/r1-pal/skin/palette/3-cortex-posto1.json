@@ -1,0 +1,39 @@
+{
+  "personaggio": "3",
+  "posto": 1,
+  "nome": "verde",
+  "gruppi": [
+    {
+      "nome": "pelle",
+      "tinta": [
+        30,
+        62
+      ],
+      "saturazione": [
+        0.4,
+        1
+      ],
+      "valore": [
+        0.25,
+        1
+      ],
+      "colore": "#90b010"
+    },
+    {
+      "nome": "N",
+      "tinta": [
+        350,
+        10
+      ],
+      "saturazione": [
+        0.8,
+        1
+      ],
+      "valore": [
+        0.5,
+        1
+      ],
+      "colore": "#8a18cc"
+    }
+  ]
+}

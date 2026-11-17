@@ -8,7 +8,7 @@
 .set noreorder
 .set noat
 
-.equ BUFFER, 0x800a4800
+.include "skin/buffer-pal.inc"
 
 .global skin_anteprima
 skin_anteprima:

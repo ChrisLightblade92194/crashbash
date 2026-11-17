@@ -1,10 +1,10 @@
-# PAL-P2c1: fixture neutra, nessun colore sostituito; contratto pacchetto.json.
+# Generato dai MDL PAL con l'algoritmo USA; prova P3a.
 .equ SKIN_VERTICI, 79884
-.equ SKIN_PODIO_VERTICI, 79884
+.equ SKIN_PODIO_VERTICI, 80594
 .global skin_vertici_k
 skin_vertici_k:
-    .space 120
+    .byte 85, 85, 170, 166, 250, 170, 170, 170, 170, 170, 85, 85, 85, 85, 85, 85, 86, 85, 170, 170, 102, 102, 85, 85, 85, 85, 170, 166, 250, 170, 170, 170, 170, 170, 85, 85, 85, 85, 85, 85, 86, 85, 170, 170, 102, 102, 85, 85, 85, 85, 170, 166, 250, 170, 170, 170, 170, 170, 85, 85, 85, 85, 85, 85, 86, 85, 170, 170, 102, 102, 85, 85, 85, 85, 170, 166, 250, 170, 170, 170, 170, 170, 85, 85, 85, 85, 85, 85, 86, 85, 170, 170, 102, 102, 85, 85, 85, 85, 170, 166, 250, 170, 170, 170, 170, 170, 85, 85, 85, 85, 85, 85, 86, 85, 170, 170, 102, 102, 85, 85
 .global skin_vertici_base
 skin_vertici_base:
-    .half 1445, 1445, 1445, 1445, 1445
+    .half 1445, 1587, 1729, 1871, 2013
     .balign 4

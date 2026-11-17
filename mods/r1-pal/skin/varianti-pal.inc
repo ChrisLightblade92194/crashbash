@@ -1,4 +1,4 @@
-# PAL-P2c1: 96 TEX PAL in ordine di voce, 289 settori; fixture originale in tutti i posti.
+# Generato dal descrittore PAL.
 .equ SKIN_BLOCCO, 289
 .global skin_varianti
 skin_varianti:

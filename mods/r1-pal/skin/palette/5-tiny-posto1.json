@@ -1,0 +1,39 @@
+{
+  "personaggio": "5",
+  "posto": 1,
+  "nome": "dobermann",
+  "gruppi": [
+    {
+      "nome": "pelo",
+      "tinta": [
+        8,
+        30
+      ],
+      "saturazione": [
+        0.7,
+        1
+      ],
+      "valore": [
+        0.4,
+        1
+      ],
+      "colore": "#23232e"
+    },
+    {
+      "nome": "muso",
+      "tinta": [
+        32,
+        55
+      ],
+      "saturazione": [
+        0.4,
+        1
+      ],
+      "valore": [
+        0.3,
+        1
+      ],
+      "colore": "#8a5a2a"
+    }
+  ]
+}

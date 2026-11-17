@@ -1,0 +1,87 @@
+{
+  "personaggio": "8",
+  "posto": 4,
+  "nome": "leopardo",
+  "gruppi": [
+    {
+      "nome": "cintura",
+      "tinta": [
+        190,
+        240
+      ],
+      "saturazione": [
+        0.2,
+        0.7
+      ],
+      "valore": [
+        0.1,
+        0.42
+      ],
+      "colore": "#1a1a1a"
+    },
+    {
+      "nome": "cintura2",
+      "tinta": [
+        240,
+        310
+      ],
+      "saturazione": [
+        0.2,
+        0.7
+      ],
+      "valore": [
+        0.1,
+        0.42
+      ],
+      "colore": "#1a1a1a"
+    },
+    {
+      "nome": "bianco",
+      "tinta": [
+        0,
+        360
+      ],
+      "saturazione": [
+        0,
+        0.15
+      ],
+      "valore": [
+        0.8,
+        1
+      ],
+      "colore": "#fbf5f4"
+    },
+    {
+      "nome": "rosso",
+      "tinta": [
+        340,
+        356
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "valore": [
+        0.5,
+        1
+      ],
+      "colore": "#d8a030"
+    },
+    {
+      "nome": "bordo",
+      "tinta": [
+        3,
+        14
+      ],
+      "saturazione": [
+        0.25,
+        0.43
+      ],
+      "valore": [
+        0.55,
+        0.84
+      ],
+      "colore": "#bd7b6f"
+    }
+  ]
+}

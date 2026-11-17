@@ -1,0 +1,23 @@
+{
+  "personaggio": "2",
+  "posto": 1,
+  "nome": "blu",
+  "gruppi": [
+    {
+      "nome": "pelo",
+      "tinta": [
+        5,
+        40
+      ],
+      "saturazione": [
+        0.6,
+        1
+      ],
+      "valore": [
+        0.4,
+        1
+      ],
+      "colore": "#1a70d0"
+    }
+  ]
+}

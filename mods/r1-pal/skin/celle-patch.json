@@ -1,0 +1,114 @@
+{"commit_usa": "418a3f8561774df5de192848cefb12ee736d50b0",
+  "algoritmo": "tools/build.py:dati_celle_pal",
+  "prova": "docs/evidence/pal-r1/p3a/celle.json",
+  "patch": [
+    {
+      "file": "celle132_1f0c.bin",
+      "inizio": 7948,
+      "fine": 8100,
+      "byte": 152,
+      "sha256_usa": "8f6d72a6c8e03f134e8a04911796a6bc10c17765adef642c39f16b1fb7674555",
+      "sha256_pal": "8f6d72a6c8e03f134e8a04911796a6bc10c17765adef642c39f16b1fb7674555",
+      "identiche": true
+    },
+    {
+      "file": "celle133_101a0.bin",
+      "inizio": 65952,
+      "fine": 66286,
+      "byte": 334,
+      "sha256_usa": "6891e60da3a63a9f2a09dc62819d4d7aadbe88fcb9ca7b539bcec9eb911ad133",
+      "sha256_pal": "6891e60da3a63a9f2a09dc62819d4d7aadbe88fcb9ca7b539bcec9eb911ad133",
+      "identiche": true
+    },
+    {
+      "file": "celle133_10ff8.bin",
+      "inizio": 69624,
+      "fine": 70078,
+      "byte": 454,
+      "sha256_usa": "3defd7507691cb3efe0cb9876a5b58313633faff571d151fe87ff3f775cf4862",
+      "sha256_pal": "3defd7507691cb3efe0cb9876a5b58313633faff571d151fe87ff3f775cf4862",
+      "identiche": true
+    },
+    {
+      "file": "celle133_111c0.bin",
+      "inizio": 70080,
+      "fine": 70081,
+      "byte": 1,
+      "sha256_usa": "8e35c2cd3bf6641bdb0e2050b76932cbb2e6034a0ddacc1d9bea82a6ba57f7cf",
+      "sha256_pal": "8e35c2cd3bf6641bdb0e2050b76932cbb2e6034a0ddacc1d9bea82a6ba57f7cf",
+      "identiche": true
+    },
+    {
+      "file": "celle133_120b0.bin",
+      "inizio": 73904,
+      "fine": 74362,
+      "byte": 458,
+      "sha256_usa": "76d4533d65e9d5a286c7dde93432e25ba4455b56a3e644c011b848ffb5f766cc",
+      "sha256_pal": "76d4533d65e9d5a286c7dde93432e25ba4455b56a3e644c011b848ffb5f766cc",
+      "identiche": true
+    },
+    {
+      "file": "celle133_122b6.bin",
+      "inizio": 74422,
+      "fine": 74475,
+      "byte": 53,
+      "sha256_usa": "1bee995920944bb9c44cab170f7917672c8555704c587f72c5c2e0b9ef5225ca",
+      "sha256_pal": "1bee995920944bb9c44cab170f7917672c8555704c587f72c5c2e0b9ef5225ca",
+      "identiche": true
+    },
+    {
+      "file": "celle133_13eea.bin",
+      "inizio": 81642,
+      "fine": 82025,
+      "byte": 383,
+      "sha256_usa": "bcd267ff46b77a09b93b1ad8be10e5f337ca1f9cd13d309231b3bddfa85af7c8",
+      "sha256_pal": "bcd267ff46b77a09b93b1ad8be10e5f337ca1f9cd13d309231b3bddfa85af7c8",
+      "identiche": true
+    },
+    {
+      "file": "celle133_14072.bin",
+      "inizio": 82034,
+      "fine": 82147,
+      "byte": 113,
+      "sha256_usa": "532ab76132cc8fa6969645321f3309f7c27d083c8f837eff97d10bb8bfce5f6b",
+      "sha256_pal": "532ab76132cc8fa6969645321f3309f7c27d083c8f837eff97d10bb8bfce5f6b",
+      "identiche": true
+    },
+    {
+      "file": "celle133_14d72.bin",
+      "inizio": 85362,
+      "fine": 85718,
+      "byte": 356,
+      "sha256_usa": "2c899a6bb4d4f81c17c34fe35faee4e05f15d14741a03b76e04d28166cb7b798",
+      "sha256_pal": "2c899a6bb4d4f81c17c34fe35faee4e05f15d14741a03b76e04d28166cb7b798",
+      "identiche": true
+    },
+    {
+      "file": "celle133_15e8a.bin",
+      "inizio": 89738,
+      "fine": 90116,
+      "byte": 378,
+      "sha256_usa": "423d72b4f4b5f35b26cca1df0a5ed19018f752e156761754fdfa72d116392b99",
+      "sha256_pal": "423d72b4f4b5f35b26cca1df0a5ed19018f752e156761754fdfa72d116392b99",
+      "identiche": true
+    },
+    {
+      "file": "celle133_16054.bin",
+      "inizio": 90196,
+      "fine": 90333,
+      "byte": 137,
+      "sha256_usa": "58adc6f8e25b4d12e616ee5c35e01072ec195c6ff480ce2f5e4e1e2b4ad53b75",
+      "sha256_pal": "58adc6f8e25b4d12e616ee5c35e01072ec195c6ff480ce2f5e4e1e2b4ad53b75",
+      "identiche": true
+    },
+    {
+      "file": "celle133_16e0c.bin",
+      "inizio": 93708,
+      "fine": 93847,
+      "byte": 139,
+      "sha256_usa": "914bf0270d16c76a3b89448148975f9307989efbc0d1ac8a201b677f81847b3a",
+      "sha256_pal": "914bf0270d16c76a3b89448148975f9307989efbc0d1ac8a201b677f81847b3a",
+      "identiche": true
+    }
+  ]
+}

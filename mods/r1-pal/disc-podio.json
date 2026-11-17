@@ -1,0 +1,18 @@
+{
+  "pal": [
+    {
+      "CRASHBSH/CRASHBSH.DAT": [
+        {
+          "name": "tex132",
+          "address": "0x80000000",
+          "offset": "0xc59000"
+        },
+        {
+          "name": "mdl133",
+          "address": "0x80000000",
+          "offset": "0xc7a800"
+        }
+      ]
+    }
+  ]
+}

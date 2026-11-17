@@ -1,0 +1,90 @@
+{
+  "personaggio": "2",
+  "posto": 5,
+  "nome": "ape",
+  "gruppi": [
+    {
+      "nome": "fiore",
+      "tinta": [
+        200,
+        300
+      ],
+      "saturazione": [
+        0.88,
+        1
+      ],
+      "valore": [
+        0.2,
+        1
+      ],
+      "colore": "#181818"
+    },
+    {
+      "nome": "salopette",
+      "tinta": [
+        190,
+        250
+      ],
+      "saturazione": [
+        0.3,
+        0.88
+      ],
+      "valore": [
+        0.2,
+        1
+      ],
+      "colore": "#f0c020",
+      "anche_texture": true
+    },
+    {
+      "nome": "scarpe",
+      "tinta": [
+        280,
+        320
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "valore": [
+        0.3,
+        1
+      ],
+      "colore": "#181818"
+    },
+    {
+      "nome": "capelli-radici",
+      "tinta": [
+        22,
+        38
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "valore": [
+        0.3,
+        1
+      ],
+      "colore": "#f8d020",
+      "anche_texture": true
+    },
+    {
+      "nome": "capelli-punte",
+      "tinta": [
+        38,
+        62
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "valore": [
+        0.3,
+        1
+      ],
+      "colore": "#202020",
+      "anche_texture": true
+    }
+  ]
+}

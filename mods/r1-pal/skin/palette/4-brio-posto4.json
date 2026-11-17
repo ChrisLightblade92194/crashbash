@@ -1,0 +1,150 @@
+{
+  "personaggio": "4",
+  "posto": 4,
+  "nome": "scheletro",
+  "gruppi": [
+    {
+      "nome": "fiamma",
+      "tinta": [
+        40,
+        62
+      ],
+      "saturazione": [
+        0.95,
+        1
+      ],
+      "valore": [
+        0.9,
+        1
+      ],
+      "colore": "#ffce00"
+    },
+    {
+      "nome": "sopracciglia",
+      "tinta": [
+        3,
+        15
+      ],
+      "saturazione": [
+        0.8,
+        1
+      ],
+      "valore": [
+        0,
+        0.32
+      ],
+      "colore": "#101010"
+    },
+    {
+      "nome": "ombre",
+      "tinta": [
+        42,
+        55
+      ],
+      "saturazione": [
+        0.4,
+        0.6
+      ],
+      "valore": [
+        0.4,
+        0.75
+      ],
+      "anche_texture": true,
+      "colore": "#929292"
+    },
+    {
+      "nome": "pelle",
+      "tinta": [
+        18,
+        55
+      ],
+      "saturazione": [
+        0.55,
+        1
+      ],
+      "valore": [
+        0.45,
+        1
+      ],
+      "anche_texture": true,
+      "colore": "#ece6d0"
+    },
+    {
+      "nome": "sfumature",
+      "tinta": [
+        15,
+        45
+      ],
+      "saturazione": [
+        0.15,
+        0.45
+      ],
+      "valore": [
+        0.1,
+        0.8
+      ],
+      "anche_texture": true,
+      "colore": "#6b685e"
+    },
+    {
+      "nome": "colletto",
+      "tinta": [
+        100,
+        150
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "valore": [
+        0.6,
+        1
+      ],
+      "colore": "#2a2a2a"
+    },
+    {
+      "nome": "camice",
+      "tinta": [
+        100,
+        150
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "valore": [
+        0,
+        0.6
+      ],
+      "colore": "#1a1a1a"
+    },
+    {
+      "nome": "maniche",
+      "tinta": [
+        175,
+        200
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "colore": "#1a1a1a"
+    },
+    {
+      "nome": "pantaloni",
+      "tinta": [
+        340,
+        5
+      ],
+      "saturazione": [
+        0.8,
+        1
+      ],
+      "valore": [
+        0,
+        0.7
+      ],
+      "colore": "#202020"
+    }
+  ]
+}

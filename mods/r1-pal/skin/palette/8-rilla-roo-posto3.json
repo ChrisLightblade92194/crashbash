@@ -1,0 +1,151 @@
+{
+  "personaggio": "8",
+  "posto": 3,
+  "nome": "diavolo",
+  "gruppi": [
+    {
+      "nome": "cintura",
+      "tinta": [
+        190,
+        240
+      ],
+      "saturazione": [
+        0.2,
+        0.7
+      ],
+      "valore": [
+        0.1,
+        0.42
+      ],
+      "colore": "#5a0a0a"
+    },
+    {
+      "nome": "cintura2",
+      "tinta": [
+        240,
+        310
+      ],
+      "saturazione": [
+        0.2,
+        0.7
+      ],
+      "valore": [
+        0.1,
+        0.42
+      ],
+      "colore": "#5a0a0a"
+    },
+    {
+      "nome": "bianco",
+      "tinta": [
+        0,
+        360
+      ],
+      "saturazione": [
+        0,
+        0.15
+      ],
+      "valore": [
+        0.8,
+        1
+      ],
+      "colore": "#fbf5f4"
+    },
+    {
+      "nome": "rosso",
+      "tinta": [
+        340,
+        356
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "valore": [
+        0.5,
+        1
+      ],
+      "colore": "#141010"
+    },
+    {
+      "nome": "bordo",
+      "tinta": [
+        3,
+        14
+      ],
+      "saturazione": [
+        0.25,
+        0.43
+      ],
+      "valore": [
+        0.55,
+        0.84
+      ],
+      "colore": "#81221a"
+    },
+    {
+      "nome": "pelle",
+      "tinta": [
+        5,
+        22
+      ],
+      "saturazione": [
+        0.2,
+        0.62
+      ],
+      "valore": [
+        0.85,
+        1
+      ],
+      "colore": "#d83020"
+    },
+    {
+      "nome": "pelo",
+      "tinta": [
+        356,
+        12
+      ],
+      "saturazione": [
+        0.44,
+        0.9
+      ],
+      "valore": [
+        0.1,
+        0.86
+      ],
+      "colore": "#2a1414"
+    },
+    {
+      "nome": "crema",
+      "tinta": [
+        24,
+        42
+      ],
+      "saturazione": [
+        0.15,
+        0.45
+      ],
+      "valore": [
+        0.75,
+        1
+      ],
+      "colore": "#ff7040"
+    },
+    {
+      "nome": "coda",
+      "tinta": [
+        20,
+        43
+      ],
+      "saturazione": [
+        0.45,
+        1
+      ],
+      "valore": [
+        0.4,
+        1
+      ],
+      "colore": "#c01818"
+    }
+  ]
+}

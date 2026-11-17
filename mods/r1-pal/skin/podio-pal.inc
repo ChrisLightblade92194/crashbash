@@ -1,4 +1,4 @@
-# PAL-P2c1: metadati misurati sugli originali PAL; prova in dati-pal.json.
+# Generato dai TEX PAL; coppie per identità pixel e palette.
 .global skin_crate
 skin_crate:
     .half 1346, 1344, 1342, 1340, 1338, 1332, 1336, 1334
@@ -11,7 +11,6 @@ skin_coppie_inizio:
 .global skin_coppie
 skin_coppie:
     .byte 48, 29, 27, 28, 49, 50, 51, 32, 52, 53, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84
-    .balign 2
 .global skin_swatch
 skin_swatch:
     .half 684, 684, 288, 324, 288, 288, 324, 396

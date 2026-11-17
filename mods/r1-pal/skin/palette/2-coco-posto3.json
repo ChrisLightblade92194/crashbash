@@ -1,0 +1,89 @@
+{
+  "personaggio": "2",
+  "posto": 3,
+  "nome": "cyberpunk",
+  "gruppi": [
+    {
+      "nome": "fiore",
+      "tinta": [
+        200,
+        300
+      ],
+      "saturazione": [
+        0.88,
+        1
+      ],
+      "valore": [
+        0.2,
+        1
+      ],
+      "colore": "#ff2a9a"
+    },
+    {
+      "nome": "salopette",
+      "tinta": [
+        190,
+        250
+      ],
+      "saturazione": [
+        0.3,
+        0.88
+      ],
+      "valore": [
+        0.2,
+        1
+      ],
+      "colore": "#2a1e40"
+    },
+    {
+      "nome": "scarpe",
+      "tinta": [
+        280,
+        320
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "valore": [
+        0.3,
+        1
+      ],
+      "colore": "#20e8ff"
+    },
+    {
+      "nome": "capelli-radici",
+      "tinta": [
+        22,
+        38
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "valore": [
+        0.3,
+        1
+      ],
+      "colore": "#ff2a9a",
+      "anche_texture": true
+    },
+    {
+      "nome": "capelli-punte",
+      "tinta": [
+        38,
+        62
+      ],
+      "saturazione": [
+        0.5,
+        1
+      ],
+      "valore": [
+        0.3,
+        1
+      ],
+      "colore": "#20e8ff",
+      "anche_texture": true
+    }
+  ]
+}

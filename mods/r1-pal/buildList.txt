@@ -1,4 +1,4 @@
-// PAL-P2a/P2b1/P2b2/P2c1: voci 1-23,36-61 (24-35 riservate a P3). Provenienza per voce nel manifesto.
+// PAL-P3a: voci 1-61; celle 24-35 generate dagli originali PAL. Provenienza per voce nel manifesto.
 pal, exe, 0x80033ac8, 0x0, base/marcatore.c
 pal, ball, 0x800bb76c, 0x0, b001/sequenza.s
 // Salto dell'intro (voci 3-4): innesto nel modulo 1083 osservato in Redux il 2026-11-17.
@@ -27,7 +27,7 @@ pal, engine, 0x8008f4f0, 0x0, boss/oxide.s
 pal, ovl1089, 0x800bf0d4, 0x0, b006/soglia.s
 pal, ovl1089, 0x800bf148, 0x0, b006/correzione.s
 
-// P2c1: codice skin, provenienza USA418a3f8; fixture PAL, celle24-35 escluse.
+// Codice skin P2c1 e pacchetto vero P3a; provenienza USA 418a3f8.
 pal, exe, 0x80048514, 0x0, skin/skin.s
 pal, exe, 0x80038700, 0x0, skin/skinCarica.s
 pal, ovl1083, 0x800b7dc4, 0x0, skin/skinConferma.s
@@ -53,3 +53,15 @@ pal, exe, 0x80037d04, 0x0, skin/skinVerticiDati.s
 pal, exe, 0x8003dd34, 0x0, skin/skinVerticiCoda.s
 pal, exe, 0x8003de2c, 0x0, skin/skinVerticiPodio.s
 pal, exe, 0x8003f424, 0x0, skin/skinVerticiCopia.s
+pal noreload, tex132, 0x80001f0c, 0x0, output/celle132_1f0c.bin
+pal noreload, mdl133, 0x800101a0, 0x0, output/celle133_101a0.bin
+pal noreload, mdl133, 0x80010ff8, 0x0, output/celle133_10ff8.bin
+pal noreload, mdl133, 0x800111c0, 0x0, output/celle133_111c0.bin
+pal noreload, mdl133, 0x800120b0, 0x0, output/celle133_120b0.bin
+pal noreload, mdl133, 0x800122b6, 0x0, output/celle133_122b6.bin
+pal noreload, mdl133, 0x80013eea, 0x0, output/celle133_13eea.bin
+pal noreload, mdl133, 0x80014072, 0x0, output/celle133_14072.bin
+pal noreload, mdl133, 0x80014d72, 0x0, output/celle133_14d72.bin
+pal noreload, mdl133, 0x80015e8a, 0x0, output/celle133_15e8a.bin
+pal noreload, mdl133, 0x80016054, 0x0, output/celle133_16054.bin
+pal noreload, mdl133, 0x80016e0c, 0x0, output/celle133_16e0c.bin
