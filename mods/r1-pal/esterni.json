@@ -1,0 +1,10 @@
+[
+  {
+    "percorso": "build/bash.bin",
+    "sha256": "a1d6b967a2311f1444482f4af91dff2d75e083ed538419f25d57d77dd5a4d7fd"
+  },
+  {
+    "percorso": "build/bash_pal.bin",
+    "sha256": "5b1bb0d1fb1342bdc89ae33d98e327b27bcc0c4834bb6ac8f3d4b1ff21dca1f1"
+  }
+]
