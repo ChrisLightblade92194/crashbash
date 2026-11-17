@@ -1,4 +1,4 @@
-// PAL-P2a/P2b1: voci 1, 2, 5-9, 59-61. Provenienza per voce nel manifesto.
+// PAL-P2a/P2b1/P2b2: voci 1, 2, 5-9, 47-61. Provenienza per voce nel manifesto.
 pal, exe, 0x80033ac8, 0x0, base/marcatore.c
 pal, ball, 0x800bb76c, 0x0, b001/sequenza.s
 // P2b1: intro 3-4 sospesa (flusso PAL nel menu 1083); solo pagine e ripeti RC3.
@@ -7,6 +7,19 @@ pal, engine, 0x8008469c, 0x0, salto-pagine/entrata.s
 pal, engine, 0x80081020, 0x0, salto-pagine/maschera.s
 pal, exe, 0x800362dc, 0x0, ripeti/ripeti.s
 pal, engine, 0x8008f768, 0x0, ripeti/hookCheckLeave.s
+// P2b2: voci 47-58, provenienza USA 418a3f8; skin inattive.
+pal, exe, 0x80049d54, 0x0, sblocco/sblocco.s
+pal, ovl1083, 0x800b8e78, 0x0, sblocco/hookTasti.s
+pal, ovl1083, 0x800b89c4, 0x0, sblocco/controlloCroce.s
+pal, ovl1083, 0x800b8a94, 0x0, sblocco/controlloScritta.s
+pal, ovl1083, 0x800b8fd4, 0x0, sblocco/controlloIcone.s
+pal, exe, 0x80049e74, 0x0, casuale/casuale.s
+pal, exe, 0x80049edc, 0x0, casuale/genera.s
+pal, exe, 0x8004a188, 0x0, casuale/scrivi.s
+pal, exe, 0x80049e20, 0x0, boss/gesti.s
+pal, exe, 0x80037f18, 0x0, boss/avvio.s
+pal, exe, 0x8003646c, 0x0, boss/suono.s
+pal, ovl1083, 0x800b54e4, 0x0, boss/hookGesti.s
 pal, engine, 0x8008f4f0, 0x0, boss/oxide.s
 pal, ovl1089, 0x800bf0d4, 0x0, b006/soglia.s
 pal, ovl1089, 0x800bf148, 0x0, b006/correzione.s
