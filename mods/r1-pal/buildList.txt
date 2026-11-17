@@ -1,0 +1,6 @@
+// PAL-P2a: sole voci 1, 2, 59, 60 e 61. Estremi esclusivi nel LEGGIMI.
+pal, exe, 0x80033ac8, 0x0, base/marcatore.c
+pal, ball, 0x800bb76c, 0x0, b001/sequenza.s
+pal, engine, 0x8008f4f0, 0x0, boss/oxide.s
+pal, ovl1089, 0x800bf0d4, 0x0, b006/soglia.s
+pal, ovl1089, 0x800bf148, 0x0, b006/correzione.s
