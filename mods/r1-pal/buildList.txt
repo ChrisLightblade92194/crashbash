@@ -1,6 +1,12 @@
-// PAL-P2a: sole voci 1, 2, 59, 60 e 61. Estremi esclusivi nel LEGGIMI.
+// PAL-P2a/P2b1: voci 1, 2, 5-9, 59-61. Provenienza per voce nel manifesto.
 pal, exe, 0x80033ac8, 0x0, base/marcatore.c
 pal, ball, 0x800bb76c, 0x0, b001/sequenza.s
+// P2b1: intro 3-4 sospesa (flusso PAL nel menu 1083); solo pagine e ripeti RC3.
+pal, exe, 0x8003f2e0, 0x0, salto-pagine/saltaPagine.s
+pal, engine, 0x8008469c, 0x0, salto-pagine/entrata.s
+pal, engine, 0x80081020, 0x0, salto-pagine/maschera.s
+pal, exe, 0x800362dc, 0x0, ripeti/ripeti.s
+pal, engine, 0x8008f768, 0x0, ripeti/hookCheckLeave.s
 pal, engine, 0x8008f4f0, 0x0, boss/oxide.s
 pal, ovl1089, 0x800bf0d4, 0x0, b006/soglia.s
 pal, ovl1089, 0x800bf148, 0x0, b006/correzione.s
