@@ -5,11 +5,7 @@
 # Umani a 0x8005c416: -0x4a dalla fine 0x8005c460, prova P1c umani.
 # 0x28 (front-end), 0x8008 (uscita Battle), 1 (Battle/SELECT/valida) non sono frame.
 # Il chiamante e i valori effettivi dei registri restano ipotesi da osservare in Redux.
-# P2b1 non attiva le skin. La parola skin dello snapshot, gia' azzerata, funge da
-# segnaposto locale: nessun accesso al codice originale nella futura sede P2c.
-# P2c dovra' sostituire ripeti_skin_inattive con la sua vera skin_scelta e collaudare
-# la cattura/ripetizione delle varianti. Qui non viene portata alcuna voce P2c.
-.equ ripeti_skin_inattive, ripeti_dati + 72
+# P2c1: cattura e ripristina skin_scelta (0x80048598), voce10; prova in p2c1/port.json.
 .set noreorder
 .set noat
 
@@ -58,8 +54,8 @@ ripeti_ripr:
     lui   $t7, 0x800a
     sh    $t6, -0x3404($t7)
     lw    $t6, 4($t4)                  # M3-L15: skin della configurazione
-    lui   $t7, %hi(ripeti_skin_inattive)
-    sw    $t6, %lo(ripeti_skin_inattive)($t7)
+    lui   $t7, %hi(skin_scelta)
+    sw    $t6, %lo(skin_scelta)($t7)
     lbu   $t6, 8($t4)                  # RC3: umani evidenziati della configurazione
     j     ripeti_fine
     sb    $t6, -0x4a($t0)              # 0x8005c416 (t0 = 0x8005c460)
@@ -88,9 +84,9 @@ ripeti_copia:
     nop
     lui   $t5, 0x800a
     lhu   $t7, -0x3404($t5)            # _nextLevel (0x8009cbfc)
-    lui   $t1, %hi(ripeti_skin_inattive)
+    lui   $t1, %hi(skin_scelta)
     sw    $t7, 0($t6)
-    lw    $t1, %lo(ripeti_skin_inattive)($t1)   # M3-L15: skin scelte alla Character Select
+    lw    $t1, %lo(skin_scelta)($t1)   # M3-L15: skin scelte alla Character Select
     lbu   $t3, -0x4a($t0)              # RC3: umani evidenziati, 0x8005c416 (t0 = 0x8005c460)
     sw    $t1, 4($t6)
     sb    $t3, 8($t6)

@@ -1,8 +1,7 @@
 # PAL-P2b2 voce 56, provenienza 418a3f8561774df5de192848cefb12ee736d50b0.
 # Sede EXE 0x80037f18: 29 istruzioni + 4 byte = 120, fine esclusa 0x80037f90.
 # Prove e limiti: docs/evidence/pal-r1/p2b2/boss.json. t0=0x80060000 da voce55.
-# Il segnaposto p2b2_skin_inattive e' definito in casuale/scrivi.s (voce54),
-# non abilita skin; P2c dovra' sostituirlo con la variabile skin_scelta provata.
+# P2c1: azzera skin_scelta PAL (0x80048598), prova p2c1/port.json.
 .set noreorder
 .set noat
 
@@ -26,8 +25,8 @@ gesti_bit:
     sw    $t1, -0x3bc0($t0)            # copie 0x8005c440
     addiu $t2, $zero, 1
     sh    $t2, -0x3bcc($t0)            # lato 0x8005c434
-    lui   $t2, %hi(p2b2_skin_inattive)
-    sw    $zero, %lo(p2b2_skin_inattive)($t2)
+    lui   $t2, %hi(skin_scelta)
+    sw    $zero, %lo(skin_scelta)($t2)
     lui   $t2, 0x800a
     sw    $t7, -0x3404($t2)            # prossimo livello 0x8009cbfc
     ori   $t2, $zero, 0x8008

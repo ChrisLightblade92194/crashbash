@@ -4,8 +4,7 @@
 # Campi PAL provati in P1c; famiglia/arena a c426/c427 dal predicato PAL.
 # Rand PAL 0x8001519c: chiamata univoca a b76c8 e corpo decodificato.
 # 0x800b5b00: firma univoca della funzione USA b4848, conserva t0-t9.
-# P2c sostituira p2b2_skin_inattive con skin_scelta PAL e provera le varianti.
-# Il segnaposto locale evita scritture nelle future sedi P2c.
+# P2c1: azzera skin_scelta PAL (0x80048598), prova p2c1/port.json.
 # Nessun testo letto o disegnato; nessuna costante contata in frame.
 # Contratto dinamico ancora da osservare: non verificato senza Redux.
 .set noreorder
@@ -27,8 +26,8 @@ casuale_scrivi:
     sll   $t1, $t7, 4
     addu  $t2, $t2, $t1
     lw    $t2, 4($t2)                  # livello dell'arena
-    lui   $t1, %hi(p2b2_skin_inattive)
-    sw    $zero, %lo(p2b2_skin_inattive)($t1) # skin originali per tutti (M3-L15; la Character Select non c'è stata)
+    lui   $t1, %hi(skin_scelta)
+    sw    $zero, %lo(skin_scelta)($t1) # skin originali per tutti (M3-L15; la Character Select non c'è stata)
     lui   $t1, 0x800a
     jal   0x800b5b00                   # 0x8005c434 dai personaggi, come alla fine della Character Select
     sw    $t2, -0x3404($t1)            # livello scelto (0x8009cbfc), come CHOOSE LEVEL
@@ -66,6 +65,4 @@ casuale_trovato:
     addu  $v0, $t1, $zero
 
 .balign 4
-.global p2b2_skin_inattive
-p2b2_skin_inattive:
-    .word 0
+    .space 4  # riserva conservata per mantenere dimensione e sede della voce54

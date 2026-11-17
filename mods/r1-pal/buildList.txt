@@ -1,4 +1,4 @@
-// PAL-P2a/P2b1/P2b2: voci 1-9, 47-61. Provenienza per voce nel manifesto.
+// PAL-P2a/P2b1/P2b2/P2c1: voci 1-23,36-61 (24-35 riservate a P3). Provenienza per voce nel manifesto.
 pal, exe, 0x80033ac8, 0x0, base/marcatore.c
 pal, ball, 0x800bb76c, 0x0, b001/sequenza.s
 // Salto dell'intro (voci 3-4): innesto nel modulo 1083 osservato in Redux il 2026-11-17.
@@ -10,7 +10,7 @@ pal, engine, 0x8008469c, 0x0, salto-pagine/entrata.s
 pal, engine, 0x80081020, 0x0, salto-pagine/maschera.s
 pal, exe, 0x800362dc, 0x0, ripeti/ripeti.s
 pal, engine, 0x8008f768, 0x0, ripeti/hookCheckLeave.s
-// P2b2: voci 47-58, provenienza USA 418a3f8; skin inattive.
+// P2b2: voci 47-58, provenienza USA 418a3f8; skin integrate in P2c1.
 pal, exe, 0x80049d54, 0x0, sblocco/sblocco.s
 pal, ovl1083, 0x800b8e78, 0x0, sblocco/hookTasti.s
 pal, ovl1083, 0x800b89c4, 0x0, sblocco/controlloCroce.s
@@ -26,3 +26,30 @@ pal, ovl1083, 0x800b54e4, 0x0, boss/hookGesti.s
 pal, engine, 0x8008f4f0, 0x0, boss/oxide.s
 pal, ovl1089, 0x800bf0d4, 0x0, b006/soglia.s
 pal, ovl1089, 0x800bf148, 0x0, b006/correzione.s
+
+// P2c1: codice skin, provenienza USA418a3f8; fixture PAL, celle24-35 escluse.
+pal, exe, 0x80048514, 0x0, skin/skin.s
+pal, exe, 0x80038700, 0x0, skin/skinCarica.s
+pal, ovl1083, 0x800b7dc4, 0x0, skin/skinConferma.s
+pal, engine, 0x80092c74, 0x0, skin/skinAccoda1.s
+pal, engine, 0x80092cd0, 0x0, skin/skinAccoda2.s
+pal, exe, 0x80048f30, 0x0, skin/skinScrivi.s
+pal, exe, 0x800365f8, 0x0, skin/skinAnteprima.s
+pal, exe, 0x80042020, 0x0, skin/skinCursore.s
+pal, exe, 0x80033a14, 0x0, skin/skinPodio.s
+pal, exe, 0x8003a694, 0x0, skin/skinTasti.s
+pal, exe, 0x8003a7b8, 0x0, skin/skinArrivo.s
+pal, exe, 0x80033f2c, 0x0, skin/skinTabelle.s
+pal, ovl1083, 0x800b7be8, 0x0, skin/skinHookCursore.s
+pal, ovl1083, 0x800b7f28, 0x0, skin/skinHookIngresso.s
+pal, exe, 0x80033adc, 0x0, skin/skinCoda.s
+pal, exe, 0x8003f324, 0x0, skin/skinCelle.s
+pal, exe, 0x800348e8, 0x0, skin/skinCella.s
+pal, exe, 0x8003431c, 0x0, skin/skinCelleDati.s
+pal, exe, 0x80044764, 0x0, skin/skinTexel.s
+pal, exe, 0x800473ec, 0x0, skin/skinVertici.s
+pal, exe, 0x8003e984, 0x0, skin/skinVerticiSettore.s
+pal, exe, 0x80037d04, 0x0, skin/skinVerticiDati.s
+pal, exe, 0x8003dd34, 0x0, skin/skinVerticiCoda.s
+pal, exe, 0x8003de2c, 0x0, skin/skinVerticiPodio.s
+pal, exe, 0x8003f424, 0x0, skin/skinVerticiCopia.s
